@@ -1,0 +1,20 @@
+{
+  "name": "rsoce21",
+  "version": "1.0.0",
+  "description": "rosc e21 project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnusnathann/e21.git"
+  },
+  "author": "vish,jj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnusnathann/e21/issues"
+  },
+  "homepage": "https://github.com/vishnusnathann/e21#readme"
+}
