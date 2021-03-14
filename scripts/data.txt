@@ -532,7 +532,7 @@ V. Natesan
  59
  [[Nenmara (State Assembly constituency)Nenmara]]
 [[Communist Party of India (Marxist) CPI(M)]]
-[[K._Babu_(CPI-M_politician)K. Babu]]
+[[K._Babu_(CPI(M)_politician)K. Babu]]
 bgcolor=#EE0000[[Communist Marxist Party (John) CMP(J)]]
 C. N. Vijayakrishnan
 [[Bharath Dharma Jana Sena BDJS]]
@@ -1089,7 +1089,6 @@ Raji Prasad
 [[K. N. Balagopal]]
 {{Indian National Congress}}; INC
 Resmi R
-
 [[Bharatiya Janata party BJP]]
 Adv. Vayakkal Soman
 -

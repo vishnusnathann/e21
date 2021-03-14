@@ -46,6 +46,7 @@ for item in lst:
             candidates.append(candidate)
         #print(candidates)
         constituency['candidates']=candidates
+        #print(item[0],len(candidates))
         newlist.append(constituency)
 
 #json_data=json.dumps(newlist)
