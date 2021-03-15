@@ -3,6 +3,7 @@ import { CONSTITUENCY } from '../Constants';
 import makeAnimated from 'react-select/animated';
 import './ConstituencySelect.css';
 import Select from 'react-select';
+import { Link } from 'react-router-dom';
 
 
 const ConstituencySelect = (props) => {
@@ -15,7 +16,7 @@ const ConstituencySelect = (props) => {
 
     useEffect(() => {
 
-        CONSTITUENCY.map((contituency)=>{
+        CONSTITUENCY.sort().map((contituency)=>{
             constituencyOptions.push({
                 value:contituency,
                 label:contituency
@@ -43,6 +44,18 @@ const ConstituencySelect = (props) => {
                 onChange={handleChange}
                 options={constituencyOptions}
             />
+
+            {
+                selectedConstituency ?
+                <Link to="/vote">
+                    <button onClick={()=>props.setConstituencySelectFlag(true)} style={{margin:"3rem auto",marginTop:"3rem",width:"250px"}}>
+                        Go Vote
+                    </button>
+                </Link>
+                    :
+                    null
+            }
+
         </div>
     )
 }

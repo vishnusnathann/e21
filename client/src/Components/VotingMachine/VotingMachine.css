@@ -1,15 +1,18 @@
 .voting-machine-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    overflow-y: auto;
     align-items: center;
     width: calc(min(600px,90%));
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     border: 1px solid gray;
     border-radius: .5rem;    
     background-color: #E9EAE4;
     padding-bottom: 1rem;
+    
 }
 .top-unit{
     font-size: 1.2rem;
@@ -29,6 +32,7 @@
 .action-unit{
     width: 100%;
     box-sizing: border-box;
+    min-height: calc(100vh - 150px);
 }
 .candidate{
     display: flex;
