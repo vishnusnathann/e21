@@ -40,11 +40,11 @@ for items in data:
                 myparty=partymap[party_code]
                 candidate['party_name']=myparty["party_name"]
                 candidate['party_id']=myparty["party_id"]
-                candidate['party_alliance']=myparty["alliance"]
+                candidate['alliance']=myparty["alliance"]
             else:
                 candidate['party_name']=""
                 candidate['party_id']="-1"
-                candidate['party_alliance']=""
+                candidate['alliance']=""
             #print("")
             candidates.append(candidate)
         #print(candidates)
