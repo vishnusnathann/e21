@@ -387,7 +387,7 @@ export const candidateData = [
     constituency_name:"Kannur",
     candidates:[
         {
-            party_name:"bgcolor pink  Congress (Secular)",
+            party_name:"Congress (Secular)",
             party_code:"Con(S)",
             party_id:-1,
             candidate_name:"Kadannappalli Ramachandran"

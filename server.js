@@ -1,8 +1,10 @@
 const express = require('express');
 const apiRoutes = require('./routes');
+const cors = require('cors');
 
 // Create the Express application
 var app = express();
+app.use(cors())
 
 // Configuring Host and Port.
 const PORT = process.env.PORT || 5000;

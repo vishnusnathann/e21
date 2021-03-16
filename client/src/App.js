@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Bowser from "bowser";
+
 import ConstituencySelect from './Components/ContituencySelect/ConstituencySelect';
 import VotingMachine from './Components/VotingMachine/VotingMachine';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
@@ -13,7 +13,7 @@ const [constituencySelectFlag, setConstituencySelectFlag] = useState(false);
 
 useEffect(() => {
 	console.log( MediaDeviceInfo.deviceId);
-	console.log(Bowser.parse(window.navigator.userAgent));
+	
 }, [])
 
 

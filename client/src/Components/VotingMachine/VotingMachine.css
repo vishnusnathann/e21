@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 3rem;
+    height: 3.2rem;
 }
 
 .candidate-details{
@@ -56,6 +56,20 @@
 
 .candiate-name{
     padding-left: 1rem;
+    width: 70%;
+    font-size: .8rem;
+}
+
+.election-symbol{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.election-symbol img{
+    padding-right: 1rem;
+    width: calc(max(30%,40px));
+    align-self: flex-end;
 }
 
 .ballot-unit{
@@ -71,7 +85,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(175, 33, 33);
+    background-color: rgb(175, 33, 33);
+    color: rgb(125, 17, 17);
+    border-radius: 50%;
+    transition: .5s;
+    
+}
+
+.ballot-unit .ballot-submit{
+    color: rgb(255, 29, 29);
+    font-size: 1rem;
+    transition: .5s;
+    -webkit-box-shadow: 5px 5px 25px 7px rgba(255,0,0,0.44); 
+    box-shadow: 5px 5px 25px 7px rgba(255,0,0,0.44); 
 }
 
 .ballot-button{
@@ -81,7 +107,17 @@
     background-color: #286A91;
 }
 
+.ballot-button:hover{
+    cursor: pointer;
+}
+
+
 @media screen and (min-width:768px){
+
+    .candiate-name{
+        font-size: 1rem;
+    }
+
     .ballot-button{
         width: 50px;
         height: 25px;
