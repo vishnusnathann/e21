@@ -1,10 +1,6 @@
 import re
 import json
 
-def filterCharacters(text):
-    #return re.sub('(…)', "",text).strip()
-    return re.sub('[^A-Za-z0-9\'\."()]',' ',text)
-
 f=open('data/candidates.txt',"r")
 data=f.read().split("\n")
 
