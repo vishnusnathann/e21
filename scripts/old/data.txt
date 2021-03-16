@@ -91,7 +91,7 @@ K. Ranjith
 -
  11
 [[Kannur (State Assembly constituency)Kannur]] 
-bgcolor=pink[[Congress (Secular) Con(S)]]
+[[Congress (Secular) Con(S)]]
 [[Kadannappalli Ramachandran]]
 {{Indian National Congress}}; INC
 [[Satheeshan Pacheni]]
@@ -165,7 +165,7 @@ M. S. Viswanathan
 -
  19 
 [[Kalpetta (State Assembly constituency)Kalpetta]] 
-bgcolor=#00FF7F[[Loktantrik_Janata_DalLJD]]
+[[Loktantrik_Janata_Dal LJD]]
 [[M. V. Shreyams Kumar]]
 {{Indian National Congress}}; INC
 
@@ -176,7 +176,7 @@ T.M. Subeesh
 -
  20 
 [[Vatakara (State Assembly constituency)Vatakara]] 
-bgcolor=#00FF7F[[Loktantrik_Janata_DalLJD]]
+[[Loktantrik_Janata_DalLJD]]
 Manayath Chandran
  [[Revolutionary Marxist Party of India RMPI]]
 K.K.Rema
@@ -522,7 +522,7 @@ K.P. Jayaprakash
 -
  58
 [[Chittur (State Assembly constituency)Chittur]]
-bgcolor=#138808[[Janata Dal (Secular) JD(S)]]
+[[Janata Dal (Secular) JD(S)]]
 [[K. Krishnankutty]]
 {{Indian National Congress}}; INC
 Sumesh Achuthan
@@ -533,7 +533,7 @@ V. Natesan
  [[Nenmara (State Assembly constituency)Nenmara]]
 [[Communist Party of India (Marxist) CPI(M)]]
 [[K._Babu_(CPI(M)_politician)K. Babu]]
-bgcolor=#EE0000[[Communist Marxist Party (John) CMP(J)]]
+[[Communist Marxist Party (John) CMP(J)]]
 C. N. Vijayakrishnan
 [[Bharath Dharma Jana Sena BDJS]]
 A.N. Anurag
@@ -679,7 +679,7 @@ T.P. Sindhu Mol
 -
  75
 [[Angamaly (State Assembly constituency)Angamaly]]
-bgcolor=#138808[[Janata Dal (Secular) JD(S)]]
+[[Janata Dal (Secular) JD(S)]]
 [[Jose Thettayil]]
 {{Indian National Congress}}; INC
 [[Roji M JohnRoji M. John]]
@@ -1011,7 +1011,7 @@ M. V. Gopakumar
 -
  111
 [[Thiruvalla (State Assembly constituency)Thiruvalla]]
-bgcolor=#138808[[Janata Dal (Secular) JD(S)]]
+[[Janata Dal (Secular) JD(S)]]
 [[Mathew T. Thomas]]
  [[Kerala Congress (Joseph) KC(J)]]
 Kunju Koshy Paul
@@ -1094,7 +1094,7 @@ Adv. Vayakkal Soman
 -
  120 
 [[Pathanapuram (State Assembly constituency)Pathanapuram]] 
-bgcolor=chocolate[[Kerala Congress (B) KC(B)]]
+[[Kerala Congress (B) KC(B)]]
 [[K. B. Ganesh Kumar]]
 {{Indian National Congress}}; INC
 Jyothikumar Chamakkala
@@ -1222,7 +1222,7 @@ V V Rajesh
 -
  134 
 [[Thiruvananthapuram (State Assembly constituency)Thiruvananthapuram]] 
-bgcolor=pink[[Janadhipathya Kerala Congress JKC]]
+[[Janadhipathya Kerala Congress JKC]]
 [[Antony Raju]]
 {{Indian National Congress}}; INC
 V. S. Sivakumar
@@ -1267,7 +1267,7 @@ P. K. Krishnadas
 -
  139
 [[Kovalam (State Assembly constituency)Kovalam]]
-bgcolor=#138808[[Janata Dal (Secular) JD(S)]]
+[[Janata Dal (Secular) JD(S)]]
 [[Neelalohithadasan Nadar]]
 {{Indian National Congress}}; INC
 M. Vincent

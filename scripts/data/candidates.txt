@@ -1,0 +1,154 @@
+Kasaragod district
+1,Manjeshwaram,CPI(M),V. V. Rameshan,IUML,A. K. M. Ashraf,BJP,K. Surendran
+2,Kasaragod,INL,M. A. Latheef,IUML,N. A. Nellikkunnu,BJP,K. Sreekanth
+3,Udma,CPI(M),C. H. Kunhambu,INC,Periya Balakrishnan,BJP,A. Velayudhan
+4,Kanhangad,CPI,E. Chandrasekharan,INC,P. V. Suresh,BJP,M. Balraj
+5,Thrikaripur,CPI(M),M. Rajagopal,KC(J),M. P. Joseph,BJP,T. V. Shibin
+Kannur district
+6,Payyanur,CPI(M),T. I. Madusoodhanan,INC,M. Pradeep Kumar,BJP,K. K. Sreedharan
+7,Kalliasseri,CPI(M),M. Vijin,INC,Brijesh Kumar,BJP,Arun Kaithapram
+8,Taliparamba,CPI(M),M. V. Govindan,INC,Abdul Rasheed V. P.,BJP,Gangadharan A.P
+9,Irikkur,KC(M),Saji Kuttiyanimattom,INC,Saju Joseph,BJP,Aniyamma Rajendran
+10,Azhikode,CPI(M),K. V. Sumesh,IUML,K. M. Shaji,BJP,K. Ranjith
+11,Kannur,Con(S),Kadannappalli Ramachandran,INC,Satheeshan Pacheni,BJP,Archana Vandichal
+12,Dharmadom,CPI(M),Pinarayi Vijayan,INC,,BJP,C. K. Padmanabhan
+13,Thalassery,CPI(M),A. N. Shamseer,INC,M. P. Aravindakshan,BJP,N. Haridas
+14,Kuthuparamba,LJD,K. P. Mohanan,IUML,Pottankandi Abdulla,BJP,C. Sadanandan Master
+15,Mattanur,CPI(M),K. K. Shailaja,RSP,Illikkal Agasthy,BJP,Biju Elakkuzhi
+16,Peravoor,CPI(M),Sakeer Hussain,INC,Sunny Joseph,BJP,Smitha Jayamohan
+Wayanad district
+17,Mananthavady,CPI(M),O. R. Kelu,INC,P. K. Jayalakshmi,BJP,
+18,Sulthan Bathery,CPI(M),M. S. Viswanathan,INC,I. C. Balakrishnan,JRS,C.K.Janu
+19,Kalpetta,LJD,M. V. Shreyams Kumar,INC,T. Siddique,BJP,T. M. Subeesh
+Kozhikode district
+20,Vatakara,LJD,Manayath Chandran,RMPI,K. K. Rema,BJP,M. Rajesh Kumar
+21,Kuttiady,CPI(M),K P Kunhahammed Kutty,IUML,Parakkal Abdulla,BJP,P.P. Murali
+22,Nadapuram,CPI,E. K. Vijayan,INC,K.Praveen Kumar,BJP,M.P. Rajan
+23,Koyilandy,CPI(M),Kanathil Jameela,INC,N. Subramanian,BJP,N. P. Radhakrishnan
+24,Perambra,CPI(M),T. P. Ramakrishnan,IUML,,BJP,K.V. Sudheer
+25,Balussery,CPI(M),K. M. Sachin Dev,INC,Dharmajan Bolgatty,BJP,Libin Bhaskar
+26,Elathur,NCP,A. K. Saseendran,NCK,Sulfikar Mayoori,BJP,T. P. Jayachandran
+27,Kozhikode North,CPI(M),Thottathil Raveendran,INC,K. M. Abhijith,BJP,M. T. Ramesh
+28,Kozhikode South,INL,Ahamed Devarkovil,IUML,P. K. Noorbeena Rasheed,BJP,Navya Haridas
+29,Beypore,CPI(M),P. A. Mohammed Riyas,INC,P. M. Niyas,BJP,K. P. Prakash Babu
+30,Kunnamangalam,Ind.,P. T. A. Rahim,Ind.,Dinesh Perumanna,BJP,V.K. Sajeevan
+31,Koduvally,Ind.,Karat Razak,IUML,M. K. Muneer,BJP,T. Balasoman
+32,Thiruvambady,CPI(M),Linto Joseph,IUML,C. P. Cheriya Muhammed,BJP,Baby Ambat
+Malappuram district
+33,Kondotty,Ind.,Sulaiman Haji,IUML,T. V. Ibrahim,BJP,Sheeba Unnikrishnan
+34,Eranad,CPI,K. T. Abdurahman,IUML,P. K. Basheer,BJP,Dinesh
+35,Nilambur,Ind.,P. V. Anvar,INC,V. V. Prakash,BJP,T. K. Ashok Kumar
+36,Wandoor,CPI(M),P. Midhuna,INC,A. P. Anil Kumar,BJP,P. C. Vijayan
+37,Manjeri,CPI,P. Abdunnasar,IUML,U. A. Latheef,BJP,P. R. Rashmilnath
+38,Perinthalmanna,Ind.,K. P. Mustafa,IUML,Najeeb Kanthapuram,BJP,Suchithra Mattada
+39,Mankada,CPI(M),T. K. Rasheed Ali,IUML,Manjalamkuzhi Ali,BJP,Sajesh Elayil
+40,Malappuram,CPI(M),P. Abdurahman,IUML,P. Ubaidulla,BJP,Sethumadhavan
+41,Vengara,CPI(M),P. Jiji,IUML,P. K. Kunhalikutty,BJP,Preman
+42,Vallikkunnu,INL,A. P. Abdul Wahab,IUML,P. Abdul Hameed,BJP,Peethambaran Palat
+43,Tirurangadi,Ind.,Niyas Pulikkalakath,IUML,K. P. A. Majeed,BJP,Sathar Haji
+44,Tanur,Ind.,V. Abdurahman,IUML,P. K. Firos,BJP,Narayanan Master
+45,Tirur,CPI(M),Ghafoor P. Lillis,IUML,Kurukkoli Moideen,BJP,Abdussalam
+46,Kottakkal,NCP,N. A. Muhammad Kutty,IUML,K. K. Abid Hussain Thangal,BJP,P. P. Ganesan
+47,Thavanur,Ind.,K. T. Jaleel,INC,Firoz kunnamparambil,BDJS,Ramesh Kottayipuram
+48,Ponnani,CPI(M),P. Nandakumar,INC,A. M. Rohit,BDJS,Subrahmanian Chungappalli
+Palakkad district
+49,Thrithala,CPI(M),M. B. Rajesh,INC,V. T. Balram,BJP,Sanku T. Das
+50,Pattambi,CPI,Muhammed Muhsin,INC,,BJP,K. M. Haridas
+51,Shornur,CPI(M),P. Mammikutty,INC,T. H. Feroz Babu,BJP,G. Sandeep Warrier
+52,Ottapalam,CPI(M),K. Premkumar,INC,P. Sarin,BJP,P. Venugopal
+53,Kongad,CPI(M),K. Shanthakumari,IUML,U. C. Raman,BJP,M. Suresh Babu
+54,Mannarkkad,CPI,K. P. Suresh Raj,IUML,N. Shamsudheen,AIADMK,B. Naseema
+55,Malampuzha,CPI(M),A. Prabhakaran,INC,S.K. Anandakrishnan,BJP,C. Krishnakumar
+56,Palakkad,CPI(M),C. P. Pramod,INC,Shafi Parambil,BJP,E. Sreedharan
+57,Tarur,CPI(M),P. P. Sumod,INC,K. A. Sheeba,BJP,K. P. Jayaprakash
+58,Chittur,JD(S),K. Krishnankutty,INC,Sumesh Achuthan,BJP,V. Natesan
+59,Nenmara,CPI(M),K. Babu,CMP(J),C. N. Vijayakrishnan,BDJS,A. N. Anurag
+60,Alathur,CPI(M),K. D. Prasenan,INC,Palayam Predeep,BJP,Prashanth Sivan
+Thrissur district
+61,Chelakkara,CPI(M),K. Radhakrishnan,INC,C. C. Sreekumar,BJP,Shajumon Vattekkad
+62,Kunnamkulam,CPI(M),A. C. Moideen,INC,K. Jayasankar,BJP,K. K. Aneeshkumar
+63,Guruvayur,CPI(M),N. K. Akbar,IUML,K. N. A. Khader,BJP,Niveditha
+64,Manalur,CPI(M),Murali Perunelly,INC,Vijaya Hari,BJP,A. N. Radhakrishnan
+65,Wadakkanchery,CPI(M),Xavier Chittilappilly,INC,Anil Akkara,BJP,T. S. Ullas Babu
+66,Ollur,CPI,K. Rajan,INC,Jose Valloor,BJP,B. Gopalakrishnan
+67,Thrissur,CPI,P. Balachandran,INC,Padmaja Venugopal,BJP,Suresh Gopi
+68,Nattika,CPI,C. C. Mukundan,INC,Sunil Lalur,BJP,A. K. Lochanan
+69,Kaipamangalam,CPI,E. T. Taison,INC,Sobha Subin,BDJS,C. D. Srilal
+70,Irinjalakuda,CPI(M),R. Bindu,KC(J),Thomas Unniyadan,BJP,Jacob Thomas
+71,Puthukkad,CPI(M),K. K. Ramachandran,INC,Sunil Anthikad,BJP,A. Nagesh
+72,Chalakudy,KC(M),Dennis Antony,INC,T. J. Saneesh Kumar Joseph,BDJS,Unnikrishnan
+73,Kodungallur,CPI,V. R. Sunil Kumar,INC,M. P. Jackson,BJP,Santhosh Chirakulam
+Ernakulam district
+74,Perumbavoor,KC(M),Babu Joseph,INC,Eldhose Kunnappilly,BJP,T.P. Sindhu Mol
+75,Angamaly,JD(S),Jose Thettayil,INC,Roji M. John,BJP,K. V. Sabu
+76,Aluva,CPI(M),Shelna Nishad,INC,Anwar Sadath,BJP,M.N. Gopi
+77,Kalamassery,CPI(M),P. Rajeev,IUML,V. E. Gafoor,BDJS,P. S. Jayarajan
+78,Paravur,CPI,M. T Nixon,INC,V. D. Satheesan,BDJS,A. B. Jayaprakash
+79,Vypin,CPI(M),K. N. Unnikrishnan,INC,Deepak Joy,BJP,K. S. Shyju
+80,Kochi,CPI(M),K. J. Maxi,INC,Tony Chammany,BJP,C.G. Rajagopal
+81,Thrippunithura,CPI(M),M. Swaraj,INC,K. Babu,BJP,K. S. Radhakrishnan
+82,Ernakulam,Ind.,Shaji George,INC,T. J. Vinod,BJP,Padmaja S. Menon
+83,Thrikkakara,CPI(M),J. Jacob,INC,P. T. Thomas,BJP,S. Saji
+84,Kunnathunad,CPI(M),P. V. Sreejin,INC,V. P. Sajeendran,BJP,Renu Suresh
+85,Piravom,KC(M),Sindhumol Jacob,KC(J),Anoop Jacob,BJP,M. A. Ashish
+86,Muvattupuzha,CPI,Eldo Abraham,INC,Mathew Kuzhelnadan,BJP,Jiji Joseph
+87,Kothamangalam,CPI(M),Antony John,KC(J),Shibu Thekkumpuram,BDJS,
+Idukki district
+88,Devikulam,CPI(M),Adv A. Raja,INC,D. Kumar,AIADMK,R. M. Dhanalakshmi
+89,Udumbanchola,CPI(M),M. M. Mani,INC,E.M. Augusthy,BJP,Remya Raveendran
+90,Thodupuzha,KC(M),K. I. Antony,KC(J),P. J. Joseph,BJP,Shyam Raj P.
+91,Idukki,KC(M),Roshy Augustine,KC(J),Francis George,BDJS,Sangeetha Viswanathan
+92,Peerumade,CPI,Vazhoor Soman,INC,Ravi Lave,BJP,Srinagari Rajan
+Kottayam district
+93,Pala,KC(M),Jose K. Mani,NCK,Mani C. Kappan,BJP,Prameela Devi
+94,Kaduthuruthy,KC(M),Stephen George,KC(J),Monce Joseph,BJP,Lijinlal G
+95,Vaikom,CPI,C. K. Asha,INC,P. R. Sona,BDJS,Ajitha Sabu
+96,Ettumanoor,CPI(M),V. N. Vasavan,KC(J),Prince Lukose,BDJS,Bharath Kaiperath
+97,Kottayam,CPI(M),K. Anilkumar,INC,Thiruvanchoor Radhakrishnan,BJP,Minerva Mohan
+98,Puthuppally,CPI(M),Jaick C. Thomas,INC,Oommen Chandy,BJP,N. Hari
+99,Changanassery,KC(M),Job Michael,KC(J),V. J. Laly,BJP,G. Raman Nair
+100,Kanjirappally,KC(M),N. Jayaraj,INC,Joseph Vazhakkan,BJP,Alphons Kannanthanam
+101,Poonjar,KC(M),Sebastian Kulathunkal,INC,Tomy Kallany,BDJS,M.R. Ullas,KJ(S),P. C. George
+Alappuzha district
+102,Aroor,CPI(M),Daleema Jojo,INC,Shanimol Usman,BDJS,Aniyappan
+103,Cherthala,CPI,P. Prasad,INC,S. Sarath,BDJS,P. S. Jyothis
+104,Alappuzha,CPI(M),P. P. Chitharanjan,INC,K. S. Manoj,BJP,R. Sandeep Vachaspathi
+105,Ambalappuzha,CPI(M),H. Salam,INC,M. Liju,BJP,Anoop Antony Joseph
+106,Kuttanad,NCP,Thomas K. Thomas,KC(J),Jacob Abraham,BDJS,Thampi Mettuthara
+107,Haripad,CPI,R. Sajilal,INC,Ramesh Chennithala,BJP,K. Soman
+108,Kayamkulam,CPI(M),U. Prathibha Hari,INC,Aritha Babu,BDJS,Pradeep Lal
+109,Mavelikara,CPI(M),M. S. Arun Kumar,INC,K. K. Shaju,BJP,Sanju
+110,Chengannur,CPI(M),Saji Cheriyan,INC,M. Murali,BJP,M. V. Gopakumar
+Pathanamthitta district
+111,Thiruvalla,JD(S),Mathew T. Thomas,KC(J),Kunju Koshy Paul,BJP,Ashokan Kulanada
+112,Ranni,KC(M),Pramod Narayan,INC,Ringoo Cherian,BDJS,Padmakumar K.
+113,Aranmula,CPI(M),Veena George,INC,K. Sivadasan Nair,BJP,Biju Mathew
+114,Konni,CPI(M),K. U. Jenish Kumar,INC,Robin Peter,BJP,K. Surendran
+115,Adoor,CPI,Chittayam Gopakumar,INC,M. G. Kannan,BJP,Pandalam Prathapan
+Kollam district
+116,Karunagapally,CPI,R. Ramachandran,INC,C. R. Mahesh,BJP,
+117,Chavara,Ind.,Sujith Vijayan,RSP,Shibu Baby John,BJP,Vivek Gopan
+118,Kunnathur,RSP(L),Kovoor Kunjumon,RSP,Ullas Kovoor,BJP,Raji Prasad
+119,Kottarakkara,CPI(M),K. N. Balagopal,INC,Resmi R,BJP,Vayakkal Soman
+120,Pathanapuram,KC(B),K. B. Ganesh Kumar,INC,Jyothikumar Chamakkala,BJP,Jithin Dev
+121,Punalur,CPI,P. S. Supal,IUML,Abdul Rahman Randathani,BJP,Ayoor Murali
+122,Chadayamangalam,CPI,J. Chinchu Rani,INC,M. M. Naseer,BJP,Vishnu Pattathanam
+123,Kundara,CPI(M),J. Mercykutty Amma,INC,,BDJS,Vanaja Vidyadharan
+124,Kollam,CPI(M),Mukesh,INC,Bindhu Krishna,BJP,
+125,Eravipuram,CPI(M),M. Noushad,RSP,Babu Divakaran,BDJS,Ranjith Raveendran
+126,Chathannoor,CPI,G. S. Jayalal,INC,Peethambara Kurup,BJP,B. B. Gopakumar
+Thiruvananthapuram district
+127,Varkala,CPI(M),V. Joy,INC,B. R. M. Shafeer,BDJS,Aji S. R. M.
+128,Attingal,CPI(M),O. S. Ambika,RSP,A. Sreedharan,BJP,P. Sudheer
+129,Chirayinkeezhu,CPI,V. Sasi,INC,Anup B.S.,BJP,Ashanath
+130,Nedumangad,CPI,G. R. Anil,INC,P. S. Prasanth,BJP,J. R. Padmakumar
+131,Vamanapuram,CPI(M),D. K. Murali,INC,Anad Jayan,BDJS,Thazhava Sahadevan
+132,Kazhakkoottam,CPI(M),Kadakampally Surendran,INC,S. S. Lal,BJP,Sobha Surendran
+133,Vattiyoorkavu,CPI(M),V. K. Prasanth,INC,Veena S Nair,BJP,V. V. Rajesh
+134,Thiruvananthapuram,JKC,Antony Raju,INC,V. S. Sivakumar,BJP,Krishna Kumar
+135,Nemom,CPI(M),V. Sivankutty,INC,K. Muraleedharan,BJP,Kummanam Rajasekharan
+136,Aruvikkara,CPI(M),G. Stephen,INC,K. S. Sabarinathan,BJP,C. Sivankutty
+137,Parassala,CPI(M),C. K. Hareendran,INC,Ansajitha Russal,BJP,Karamana Jayan
+138,Kattakkada,CPI(M),I. B. Sathish,INC,Malayainkeezhu Venugopal,BJP,P. K. Krishnadas
+139,Kovalam,JD(S),Neelalohithadasan Nadar,INC,M. Vincent,KKC,Vishnupuram Chandrasekharan
+140,Neyyattinkara,CPI(M),K. Ansalan,INC,R.Selvaraj,BJP,Rajasekharan S Nair

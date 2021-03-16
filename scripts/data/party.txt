@@ -1,0 +1,33 @@
+1,Communist Party of India (Marxist),CPI(M),1
+2,Indian National Congress,INC,2
+3,Bharatiya Janata Party,BJP,3
+4,Communist Party of India,CPI,1
+5,Indian Union Muslim League,IUML,2
+6,Kerala Congress (M),KC(M),1
+7,Janata Dal (Secular),JD(S),1
+8,Loktantrik Janata Dal,LJD,1
+9,Kerala Congress (Joseph),KC(J),2
+10,Revolutionary Socialist Party,RSP,2
+11,Nationalist Congress Kerala,NCK,2
+12,Nationalist Congress Party,NCP,1
+13,Indian National League,INL,1
+14,Congress (Secular),C(S),1
+15,Janadhipathya Kerala Congress,JKC,1
+16,Kerala Congress (B),KC(B),1
+17,Revolutionary Socialist Party (Leninist),RSP(L),1
+18,Communist Marxist Party (John),CMP(J),2
+19,Kerala Congress (Jacob),KC(Ja),2
+20,All India Forward Bloc,AIFB,2
+21,Revolutionary Marxist Party of India,RMPI,2
+22,Bharath Dharma Jana Sena,BDJS,3
+23,Kerala Congress (Thomas),KC(T),3
+24,Kerala Kamaraj Congress,KKC,3
+25,Janadhipathya Rashtriya Sabha,JSS,1
+26,All India Anna Dravida Munnetra Kazhagam,AIADMK,3
+27,Socialist Janata Dal,SJD,
+28,Lok Janshakti Party,LJP,
+29,Bahujan Samaj Party,BSP,
+30,Aam Aadmi Party,AAP,
+31,Independent,Ind.,
+32,NOTA,NOTA,
+33,Kerala Janapaksham (Secular),KJ(S),

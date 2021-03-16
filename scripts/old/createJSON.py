@@ -3,7 +3,7 @@ import json
 
 def filterCharacters(text):
     #return re.sub('(…)', "",text).strip()
-    return re.sub('[^A-Za-z0-9\'\.\"()]',' ',text)
+    return re.sub('[^A-Za-z0-9\'\."()]',' ',text)
 
 f=open('data.txt',"r")
 data=f.read().split("-")
@@ -12,7 +12,7 @@ data=f.read().split("-")
 partyfile=open('partyData.json',"r")
 partyJSON=partyfile.read().lower()
 party = json.loads(partyJSON)
-print(party)
+#print(party)
 
 
 lst=[]
