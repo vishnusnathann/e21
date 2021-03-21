@@ -4,6 +4,7 @@ import './App.css';
 import ConstituencySelect from './Components/ContituencySelect/ConstituencySelect';
 import VotingMachine from './Components/VotingMachine/VotingMachine';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import FinalAnnotation from './Components/FinalAnnotation/FinalAnnotation';
 
 function App() {
 
@@ -32,6 +33,10 @@ return (
 				
 				<Route path="/vote"  exact render={props => 
 					<VotingMachine {...props} selectedConstituency={selectedConstituency}/>}
+				/>
+
+				<Route path="/vote_casted"  exact render={props => 
+					<FinalAnnotation {...props} />}
 				/>
 			</Switch>
 		</Router>

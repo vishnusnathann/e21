@@ -58,6 +58,14 @@
     padding-left: 1rem;
     width: 70%;
     font-size: .8rem;
+    box-sizing: border-box;
+}
+
+.candiate-name .candidate-order-number{
+    padding: 0 .5rem 0 0;
+    width: 10px;
+    border-right: 2px solid rgb(88, 88, 88);
+    margin-right: .5rem;
 }
 
 .election-symbol{
@@ -105,6 +113,8 @@
     height: 20px;
     border-radius: .7rem;
     background-color: #286A91;
+    border: none;
+    box-shadow:  inset 1px 1px 2px #BABECC;
 }
 
 .ballot-button:hover{

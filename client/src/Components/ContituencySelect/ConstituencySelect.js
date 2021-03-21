@@ -14,7 +14,17 @@ const ConstituencySelect = (props) => {
 
     const [selectedConstituency, setselectedConstituency] = useState('');
 
+
+    // const customStyles = {
+
+        
+    // }
+
     useEffect(() => {
+
+
+        if(localStorage.getItem("e21_vote_cast"))
+            props.history.push("/vote_casted");
 
         CONSTITUENCY.sort().map((contituency)=>{
             constituencyOptions.push({
@@ -37,13 +47,18 @@ const ConstituencySelect = (props) => {
     return (
         <div className="constituency-select-container">
             <h1>Choose your Constituency</h1>
-            <Select
-                isClearable
-                components={animatedComponents}
-                value={selectedConstituency}
-                onChange={handleChange}
-                options={constituencyOptions}
-            />
+            <div className="select-wrapper">
+                <Select
+                    isClearable
+                    components={animatedComponents}
+                    value={selectedConstituency}
+                    onChange={handleChange}
+                    options={constituencyOptions}
+                    className='select'
+                    
+                />
+            </div>
+            
 
             {
                 selectedConstituency ?
