@@ -46,7 +46,7 @@ const VotingMachine = (props) => {
         
         console.log(userInfo);
 
-        // audio.play()
+        audio.play()
 
         let payload = {};
 
