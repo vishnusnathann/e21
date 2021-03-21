@@ -6,9 +6,11 @@ import Bowser from "bowser";
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 import { baseURL } from '../../config';
+import DeviceDetector from "device-detector-js";
 import {
     mobileVendor,mobileModel,getUA
   } from "react-device-detect"; 
+
 
 const VotingMachine = (props) => {
 
@@ -17,10 +19,17 @@ const VotingMachine = (props) => {
     const [selectedIndex, setSelectedIndex] = useState(null);
     const [voteSubmitted, setVoteSubmitted] = useState(false);
     const [voteData, setVoteData] = useState({});
+    
+
+    const deviceDetector = new DeviceDetector();
+    const userAgent = getUA;
+    const device = deviceDetector.parse(userAgent);
 
     let audio = new Audio("/beep.mp3")
 
     useEffect(() => {
+
+        console.log("device details",device);
 
         if(!props.selectedConstituency){
             props.history.push("/");
@@ -31,7 +40,7 @@ const VotingMachine = (props) => {
 
         setVoterContituencyObject(obj);
 
-        let userInfo =  Bowser.parse(window.navigator.userAgent);
+       
 
     }, []);
     
