@@ -63,12 +63,12 @@ const ConstituencySelect = (props) => {
                     {
                         selectedConstituency ?
                         <Link to="/vote">
-                            <button onClick={()=>props.setConstituencySelectFlag(true)} style={{margin:"3rem auto",marginTop:"3rem",width:"250px"}}>
+                            <button onClick={()=>props.setConstituencySelectFlag(true)} className="go-vote-button">
                                 Go Vote
                             </button>
                         </Link>
                             :
-                            <button disabled={selectedConstituency} style={{margin:"3rem auto",marginTop:"3rem",width:"250px"}}>
+                            <button disabled={selectedConstituency} className="go-vote-button">
                                 Go Vote
                             </button>
                     }
