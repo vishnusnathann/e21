@@ -5,6 +5,7 @@ import ConstituencySelect from './Components/ContituencySelect/ConstituencySelec
 import VotingMachine from './Components/VotingMachine/VotingMachine';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import FinalAnnotation from './Components/FinalAnnotation/FinalAnnotation';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
 
@@ -22,6 +23,7 @@ useEffect(() => {
 return (
 	<div className="App">
 		<Router>
+			<Navbar/>
 			<Switch>
 				<Route  path="/"  exact render={props => 
 					<ConstituencySelect {...props} selectedConstituency={selectedConstituency} 

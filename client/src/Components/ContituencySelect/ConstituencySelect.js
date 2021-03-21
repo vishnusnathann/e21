@@ -47,29 +47,34 @@ const ConstituencySelect = (props) => {
     return (
         <div className="constituency-select-container">
             <h1>Choose your Constituency</h1>
-            <div className="select-wrapper">
-                <Select
-                    isClearable
-                    components={animatedComponents}
-                    value={selectedConstituency}
-                    onChange={handleChange}
-                    options={constituencyOptions}
-                    className='select'
-                    
-                />
+            <div className="select-action-container">
+                <div className="select-wrapper">
+                    <Select
+                        isClearable
+                        components={animatedComponents}
+                        value={selectedConstituency}
+                        onChange={handleChange}
+                        options={constituencyOptions}
+                        className='select'
+                        
+                    />
+                </div>
+                <div>
+                    {
+                        selectedConstituency ?
+                        <Link to="/vote">
+                            <button onClick={()=>props.setConstituencySelectFlag(true)} style={{margin:"3rem auto",marginTop:"3rem",width:"250px"}}>
+                                Go Vote
+                            </button>
+                        </Link>
+                            :
+                            <button disabled={selectedConstituency} style={{margin:"3rem auto",marginTop:"3rem",width:"250px"}}>
+                                Go Vote
+                            </button>
+                    }
+                </div>
             </div>
             
-
-            {
-                selectedConstituency ?
-                <Link to="/vote">
-                    <button onClick={()=>props.setConstituencySelectFlag(true)} style={{margin:"3rem auto",marginTop:"3rem",width:"250px"}}>
-                        Go Vote
-                    </button>
-                </Link>
-                    :
-                    null
-            }
 
         </div>
     )

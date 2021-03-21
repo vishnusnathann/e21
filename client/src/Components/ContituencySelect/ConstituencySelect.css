@@ -5,7 +5,17 @@
     margin: 2rem;
     
 }
+.select-action-container{
+    height: calc(100vh - 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.select-action-container div{
+    
+}
 .select-wrapper{
     width: 100%;
     display: flex;
