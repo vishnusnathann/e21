@@ -4,12 +4,10 @@ import { BsCircleFill } from "react-icons/bs";
 import { candidateData } from '../Constants';
 import Bowser from "bowser";
 import axios from 'axios';
-import { v4 as uuidv4 } from 'uuid';
 import { baseURL } from '../../config';
 import DeviceDetector from "device-detector-js";
-import {
-    mobileVendor,mobileModel,getUA
-  } from "react-device-detect"; 
+import hash from 'object-hash';
+import {getUA} from "react-device-detect"; 
 
 
 const VotingMachine = (props) => {
@@ -18,9 +16,7 @@ const VotingMachine = (props) => {
     const [notaSelected, setNotaSelected] = useState(false);
     const [selectedIndex, setSelectedIndex] = useState(null);
     const [voteSubmitted, setVoteSubmitted] = useState(false);
-    const [voteData, setVoteData] = useState({});
-    
-
+    const [csrfToken, setcsrfToken] = useState(null);
     const deviceDetector = new DeviceDetector();
     const userAgent = getUA;
     const device = deviceDetector.parse(userAgent);
@@ -35,12 +31,14 @@ const VotingMachine = (props) => {
             props.history.push("/");
         }
 
+        axios.get(`${baseURL}/api/vote/csrf`).then(response =>{
+            setcsrfToken(response.data.csrfToken);
+        });
+
         let obj = candidateData.find(o => o.constituency_name === props.selectedConstituency);
         console.log(obj);
 
         setVoterContituencyObject(obj);
-
-       
 
     }, []);
     
@@ -53,7 +51,14 @@ const VotingMachine = (props) => {
 
         let userInfo = await Bowser.parse(window.navigator.userAgent);
         
-        console.log(userInfo);
+        let voter_id = hash({
+            os_name:userInfo.os.name,
+            os_version:userInfo.os.version,
+            device_platform:userInfo.platform.type,
+            brand:device.device.brand,
+            model:device.device.model
+
+        })
 
         audio.play()
 
@@ -62,7 +67,7 @@ const VotingMachine = (props) => {
         if(index  === -1){
 
             payload = {
-                voter_id: uuidv4(),
+                voter_id: voter_id,
                 party_id:32,
                 alliance_id: 4,
                 constituency_id: voterContituencyObject.constituency_id,
@@ -76,7 +81,7 @@ const VotingMachine = (props) => {
         }
         else{
             payload = {
-                voter_id: uuidv4(),
+                voter_id: voter_id,
                 party_id:candidateDetails.party_id,
                 alliance_id: candidateDetails.alliance ? candidateDetails.alliance : 4,
                 constituency_id: voterContituencyObject.constituency_id,
@@ -92,7 +97,11 @@ const VotingMachine = (props) => {
                 setNotaSelected(false)
             }
 
-            await axios.post(`${baseURL}/api/vote/add_vote`,payload).then(response =>{
+            await axios.post(`${baseURL}/api/vote/add_vote`,payload,
+            { headers: {
+                'CSRF-Token': csrfToken
+            }},
+            ).then(response =>{
                 if(response.data.type = 'success'){
 
                     localStorage.setItem("e21_vote_cast", true);
@@ -124,7 +133,14 @@ const VotingMachine = (props) => {
                             <div className="candidate" key={index}>
                                 <div className="candidate-details">
                                     <div className="candiate-name">
-                                        <span className="candidate-order-number">{index+1}</span>{` ${item.candidate_name}`}
+                                        <span className="candidate-order-number">
+                                            {index+1}
+                                        </span>
+                                        <span className="separator">
+                                        </span>
+                                        <span>
+                                        {` ${item.candidate_name}`}
+                                        </span>
                                     </div>
                                     <div className="election-symbol">
                                         <img src={`/e21Symbols/${item.party_code}.png`} alt={item.party_code}/>
@@ -149,7 +165,12 @@ const VotingMachine = (props) => {
                     <div className="candidate">
                         <div className="candidate-details">
                             <div className="candiate-name">
-                                <span className="candidate-order-number">{voterContituencyObject.candidates.length+1}</span> NOTA
+                                <span className="candidate-order-number">{voterContituencyObject.candidates.length+1}</span>
+                                <span className="separator">
+                                </span>
+                                <span>
+                                    NOTA
+                                </span>
                             </div>
                             <div className="election-symbol">
                                 <img src={`/e21Symbols/NOTA.png`} alt="NOTA"/>

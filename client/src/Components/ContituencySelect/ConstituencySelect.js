@@ -4,6 +4,7 @@ import makeAnimated from 'react-select/animated';
 import './ConstituencySelect.css';
 import Select, { components } from 'react-select';
 import { Link } from 'react-router-dom';
+import { FaVoteYea } from "react-icons/fa";
 
 
 const ConstituencySelect = (props) => {
@@ -91,8 +92,9 @@ const ConstituencySelect = (props) => {
 
     return (
         <div className="constituency-select-container">
-            <h1>Choose your Constituency</h1>
+            
             <div className="select-action-container">
+                <h1>Choose your Constituency</h1>
                 <div className="select-wrapper">
                     <Select
                         isClearable
@@ -117,14 +119,14 @@ const ConstituencySelect = (props) => {
                 <div>
                     {
                         selectedConstituency ?
-                        <Link to="/vote">
+                        <Link to="/vote" style={{textDecoration:"none"}}>
                             <button onClick={()=>props.setConstituencySelectFlag(true)} className="go-vote-button">
-                                Go Vote
+                                <FaVoteYea className="icon"/> Vote now
                             </button>
                         </Link>
                             :
                             <button disabled={selectedConstituency} className="go-vote-button">
-                                Go Vote
+                                <FaVoteYea className="icon"/> Vote now
                             </button>
                     }
                 </div>

@@ -13,6 +13,10 @@
     flex-direction: column;
 }
 
+.select-action-container h1{
+    font-size: 2.1rem;
+}
+
 .select-action-container div{
     
 }
@@ -40,16 +44,27 @@
 .go-vote-button{
     margin:3rem auto;
     margin-top: 3rem;
-    width: 250px;
+    width: 150px;
     padding: .5rem;
+    font-size: 1rem;
     border-radius: .3rem;
+    font-size: 1.1rem;
     border: 1px solid rgb(199, 199, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #3975a7;
+    text-decoration: none !important;
 }
-
+.icon{
+    font-family: 1.5rem;
+    margin-right: .5rem;
+}
 
 @media screen and (max-width:320px){
     .select-wrapper{
-        
         font-size: .7rem;
     }
     

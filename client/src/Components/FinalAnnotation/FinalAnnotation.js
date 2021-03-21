@@ -16,9 +16,15 @@ const FinalAnnotation = () => {
     const [reset, setreset] = useState(false);
 
 useEffect(() => {
+    
     setTimeout(() => {
         setfire(!fire );
-    }, 500);
+    }, 200);
+
+    setTimeout(() => {
+        localStorage.setItem("e21_vote_done", true);
+    }, 1500);
+    
 }, [])
         
     
@@ -38,38 +44,85 @@ useEffect(() => {
                 resize={true}
                 shapes={['circle', 'circle', 'square']}
                 origin={{
-                    x:.5,
-                    y: .5
+                    x:0,
+                    y:0
                     }}
-                ticks={700}
+                ticks={500}
                 startVelocity={55}
                 scalar={0.8}
-                gravity={.6}
-                // angle={90}
+                gravity={.7}
+                angle={180}
                 spread={360}
             />
 
-            {/* <Confetti
+            <Confetti
                 style={style}
                 className={'yourClassName'}
                 particleCount={700}
                 fire={fire}
-                ticks={120}
-                // onReset={reset}
+                resize={true}
                 shapes={['circle', 'circle', 'square']}
                 origin={{
-                    x: .9,
-                    y: .1
+                    x:1,
+                    y: 0
                     }}
-                scalar={0.9}
-                gravity={.6}
-                angle={90}
+                ticks={500}
+                startVelocity={55}
+                scalar={0.8}
+                gravity={.7}
+                angle={180}
                 spread={360}
-            /> */}
+            />
+            <Confetti
+                style={style}
+                className={'yourClassName'}
+                particleCount={700}
+                fire={fire}
+                resize={true}
+                shapes={['circle', 'circle', 'square']}
+                origin={{
+                    x:0,
+                    y: 1
+                    }}
+                ticks={500}
+                startVelocity={55}
+                scalar={0.8}
+                gravity={.7}
+                angle={180}
+                spread={360}
+            />
+            <Confetti
+                style={style}
+                className={'yourClassName'}
+                particleCount={700}
+                fire={fire}
+                resize={true}
+                shapes={['circle', 'circle', 'square']}
+                origin={{
+                    x:1,
+                    y:1
+                    }}
+                ticks={500}
+                startVelocity={55}
+                scalar={0.8}
+                gravity={.7}
+                angle={180}
+                spread={360}
+            />
 
-                
-
-            Thank you for voting
+                <img src={'./vote.png'} />
+                {
+                    localStorage.getItem("e21_vote_done") ?
+                    <h1 className="fade-in-fwd">
+                        You have already voted!
+                    </h1>
+                    :
+                    <h1 className="fade-in-fwd">
+                        Thank you for Voting!
+                    </h1>
+                }
+            
+            
         </div>
     )
 }

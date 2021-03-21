@@ -4,12 +4,19 @@ const Vote = require('../models/Vote');
 const voteRoutes = express.Router();
 const hash = require('object-hash');
 const requestIp = require('request-ip');
+const csrf = require('csurf')
+const csrfProtection = csrf({ cookie: true })
 
 const ipMiddleware = function(req, res, next) {
     req.clientIp = requestIp.getClientIp(req); 
     next();
 };
- 
+
+
+
+voteRoutes.get('/csrf', csrfProtection, function (req, res) {
+    res.status(200).json({ csrfToken: req.csrfToken() });
+})
 
 voteRoutes.post("/add_vote",ipMiddleware ,async (req,res) => {
     
@@ -17,10 +24,11 @@ voteRoutes.post("/add_vote",ipMiddleware ,async (req,res) => {
         candidate_name,datetime,browser_name,os_name,os_version,
         device_platform} = req.body;
 
+
+        console.log(req.body);
+
     let voter_uid = hash({
-        os_name:os_name,
-        os_version:os_version,
-        device_platform:device_platform,
+        voter_id:voter_id,
         ip:req.clientIp
     })
 

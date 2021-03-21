@@ -1,6 +1,33 @@
+
+
 .final-annotation-container{
     height: calc(100vh - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.fade-in-fwd {
+	animation: fade-in-fwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    /* font-weight: 500; */
+    font-size: 2.1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.final-annotation-container img{
+    width: 130px;
+    animation: fade-in-fwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+
+}
+
+@keyframes fade-in-fwd {
+    0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+    }
+    100% {
+    transform: translateZ(0);
+    opacity: 1;
+    }
 }

@@ -64,8 +64,13 @@
 .candiate-name .candidate-order-number{
     padding: 0 .5rem 0 0;
     width: 10px;
-    border-right: 2px solid rgb(88, 88, 88);
+    
+    
+}
+
+.separator{
     margin-right: .5rem;
+    border-right: 2px solid rgb(88, 88, 88);
 }
 
 .election-symbol{
