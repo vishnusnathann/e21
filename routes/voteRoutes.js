@@ -7,10 +7,10 @@ const requestIp = require('request-ip');
 const csrf = require('csurf')
 const csrfProtection = csrf({ cookie: true })
 
-const ipMiddleware = function(req, res, next) {
-    req.clientIp = requestIp.getClientIp(req); 
-    next();
-};
+// const ipMiddleware = function(req, res, next) {
+//     req.clientIp = requestIp.getClientIp(req); 
+//     next();
+// };
 
 
 
@@ -18,7 +18,7 @@ voteRoutes.get('/csrf', csrfProtection, function (req, res) {
     res.status(200).json({ csrfToken: req.csrfToken() });
 })
 
-voteRoutes.post("/add_vote",ipMiddleware ,async (req,res) => {
+voteRoutes.post("/add_vote" ,async (req,res) => {
     
     let {voter_id,party_id,alliance_id,constituency_id,
         candidate_name,datetime,browser_name,os_name,os_version,
@@ -29,13 +29,13 @@ voteRoutes.post("/add_vote",ipMiddleware ,async (req,res) => {
 
     let voter_uid = hash({
         voter_id:voter_id,
-        ip:req.clientIp
+        ip:req.connection.remoteAddress
     })
 
     try {
 		pool.query(Vote.addVote(),[voter_uid,party_id,alliance_id,constituency_id,
             candidate_name,datetime,browser_name,os_name,os_version,
-            device_platform,req.clientIp]).then((response)=>{
+            device_platform,req.connection.remoteAddress]).then((response)=>{
                 res.status(200).json({type:'success'})
             });
 	} catch (err) {
