@@ -13,10 +13,6 @@ function App() {
 const [selectedConstituency, setSelectedConstituency] = useState('');
 const [constituencySelectFlag, setConstituencySelectFlag] = useState(false);
 
-useEffect(() => {
-	console.log( MediaDeviceInfo.deviceId);
-	
-}, [])
 
 
 
