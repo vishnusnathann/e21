@@ -18,7 +18,7 @@ const ConstituencySelect = (props) => {
 
     const animatedComponents = makeAnimated();
 
-    const [selectedConstituency, setselectedConstituency] = useState('');
+    const [selectedConstituency, setselectedConstituency] = useState(null);
 
     
 
@@ -80,7 +80,7 @@ const ConstituencySelect = (props) => {
         if(contituency)
             props.setSelectedConstituency(contituency.value);
         else
-            props.setSelectedConstituency('');
+            props.setSelectedConstituency(null);
 
     }
 
@@ -125,7 +125,7 @@ const ConstituencySelect = (props) => {
                             </button>
                         </Link>
                             :
-                            <button disabled={selectedConstituency} className="go-vote-button">
+                            <button disabled className="go-vote-button">
                                 <FaVoteYea className="icon"/> Vote now
                             </button>
                     }

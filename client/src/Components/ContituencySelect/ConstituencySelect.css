@@ -6,7 +6,7 @@
     
 }
 .select-action-container{
-    height: calc(100vh - 300px);
+    min-height: calc(100vh - 300px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +15,10 @@
 
 .select-action-container h1{
     font-size: 2.1rem;
+    font-weight: bolder;
 }
 
-.select-action-container div{
-    
-}
+
 .select-wrapper{
     width: 100%;
     display: flex;
@@ -58,6 +57,12 @@
     background-color: #3975a7;
     text-decoration: none !important;
 }
+
+button:disabled{
+    opacity: .7;
+    
+}
+
 .icon{
     font-family: 1.5rem;
     margin-right: .5rem;

@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="logo-container">
                 <img className="logo" src={"/kerala.png"}/>
                 <h1>
-                    Election Trends
+                    Virtual Election 
                     <br/>
                     <small>Kerala 2021</small>
                     

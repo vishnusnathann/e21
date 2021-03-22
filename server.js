@@ -19,9 +19,16 @@ const HOST = process.env.HOST || '127.0.0.1';
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
+app.use(express.static('client/build'));
+
 app.use(cookieParser())
 
 app.use('/api',apiRoutes);
+
+// app.get('/**', (req, res) => {
+//     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    
+// });
 
 // Server listens on http://localhost:5000
 let server = app.listen(PORT, HOST, () => console.log(`Server started running on : http://${HOST}:${PORT}`));

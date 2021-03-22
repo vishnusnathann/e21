@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  font-family:  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+  /* font-family:  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'; */
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  
 }
 
 

@@ -44,6 +44,8 @@ const VotingMachine = (props) => {
     
 
     const onVoteSubmit = async (candidateDetails,index) =>{
+        
+        audio.play()
 
         setVoteSubmitted(true);
 
@@ -60,7 +62,6 @@ const VotingMachine = (props) => {
 
         })
 
-        audio.play()
 
         let payload = {};
 
@@ -118,86 +119,87 @@ const VotingMachine = (props) => {
         
     }
 
-    return (
-        <div className="voting-machine-container">
-            <div className="top-unit">
-                Ready <BsCircleFill className="ready-icon"/>
-            </div>
-            <div className="action-unit">
-                
-                {
-                    voterContituencyObject &&
+    
+        return (
+            <div className="voting-machine-container">
+                <div className="top-unit">
+                    Ready <BsCircleFill className="ready-icon"/>
+                </div>
+                <div className="action-unit">
                     
-                    voterContituencyObject.candidates.map((item,index)=>{
-                        return(
-                            <div className="candidate" key={index}>
-                                <div className="candidate-details">
-                                    <div className="candiate-name">
-                                        <span className="candidate-order-number">
-                                            {index+1}
-                                        </span>
-                                        <span className="separator">
-                                        </span>
-                                        <span>
-                                        {` ${item.candidate_name}`}
-                                        </span>
-                                    </div>
-                                    <div className="election-symbol">
-                                        <img src={`/e21Symbols/${item.party_code}.png`} alt={item.party_code}/>
+                    {
+                        voterContituencyObject &&
+                        
+                        voterContituencyObject.candidates.map((item,index)=>{
+                            return(
+                                <div className="candidate" key={index}>
+                                    <div className="candidate-details">
+                                        <div className="candiate-name">
+                                            <span className="candidate-order-number">
+                                                {index+1}
+                                            </span>
+                                            <span className="separator">
+                                            </span>
+                                            <span>
+                                            {` ${item.candidate_name}`}
+                                            </span>
+                                        </div>
+                                        <div className="election-symbol">
+                                            <img src={`/e21Symbols/${item.party_code}.png`} alt={item.party_code}/>
+                                        </div>  
                                     </div>  
-                                </div>  
-                                <div className="ballot-unit">
-                                    <div className={selectedIndex === index?"signal ballot-submit":"signal"}>
-                                        <BsCircleFill/>
+                                    <div className="ballot-unit">
+                                        <div className={selectedIndex === index?"signal ballot-submit":"signal"}>
+                                            <BsCircleFill/>
+                                        </div>
+                                        <button className="ballot-button" disabled={voteSubmitted} onClick={()=>onVoteSubmit(item,index)}>
+                                        </button>
                                     </div>
-                                    <button className="ballot-button" disabled={voteSubmitted} onClick={()=>onVoteSubmit(item,index)}>
-                                    </button>
                                 </div>
-                            </div>
-                    )
-                    })
+                        )
+                        })
+                        
+                    }
                     
-                }
-                
 
-                {
-                    voterContituencyObject &&
-                    <div className="candidate">
-                        <div className="candidate-details">
-                            <div className="candiate-name">
-                                <span className="candidate-order-number">{voterContituencyObject.candidates.length+1}</span>
-                                <span className="separator">
-                                </span>
-                                <span>
-                                    NOTA
-                                </span>
-                            </div>
-                            <div className="election-symbol">
-                                <img src={`/e21Symbols/NOTA.png`} alt="NOTA"/>
+                    {
+                        voterContituencyObject &&
+                        <div className="candidate">
+                            <div className="candidate-details">
+                                <div className="candiate-name">
+                                    <span className="candidate-order-number">{voterContituencyObject.candidates.length+1}</span>
+                                    <span className="separator">
+                                    </span>
+                                    <span>
+                                        NOTA
+                                    </span>
+                                </div>
+                                <div className="election-symbol">
+                                    <img src={`/e21Symbols/NOTA.png`} alt="NOTA"/>
+                                </div>  
                             </div>  
-                        </div>  
-                        <div className="ballot-unit">
-                            <div className={notaSelected?"signal ballot-submit":"signal"}>
-                                <BsCircleFill />
+                            <div className="ballot-unit">
+                                <div className={notaSelected?"signal ballot-submit":"signal"}>
+                                    <BsCircleFill />
+                                </div>
+                                <button className="ballot-button"
+                                    disabled={voteSubmitted}
+                                    onClick={async()=>{
+                                        await setNotaSelected(true)
+                                        await onVoteSubmit({candidate_name:"NOTA"},-1)
+                                    }
+                                    }>
+
+                                </button>
                             </div>
-                            <button className="ballot-button"
-                                disabled={voteSubmitted}
-                                onClick={async()=>{
-                                    await setNotaSelected(true)
-                                    await onVoteSubmit({candidate_name:"NOTA"},-1)
-                                }
-                                }>
-
-                            </button>
                         </div>
-                    </div>
-                }
+                    }
 
-                
-                
+                    
+                    
+                </div>
             </div>
-        </div>
-    )
+        )
 }
 
 export default VotingMachine

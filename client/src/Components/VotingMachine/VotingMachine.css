@@ -12,6 +12,7 @@
     border-radius: .5rem;    
     background-color: #E9EAE4;
     padding-bottom: 1rem;
+    overflow-y: auto;
     
 }
 .top-unit{
@@ -33,6 +34,7 @@
     width: 100%;
     box-sizing: border-box;
     min-height: calc(100vh - 200px);
+    overflow-y: auto;
 }
 .candidate{
     display: flex;
