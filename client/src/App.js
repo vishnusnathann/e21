@@ -15,7 +15,6 @@ const [constituencySelectFlag, setConstituencySelectFlag] = useState(false);
 
 
 
-
 return (
 	<div className="App">
 		<Router>
