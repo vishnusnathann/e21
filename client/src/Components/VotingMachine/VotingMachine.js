@@ -26,6 +26,9 @@ const VotingMachine = (props) => {
 
     useEffect(() => {
 
+        if(localStorage.getItem("e21_vote_cast"))
+            props.history.push("/vote_casted");
+
         console.log("device details",device);
 
         if(!props.selectedConstituency){
