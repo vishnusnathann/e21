@@ -31,7 +31,7 @@ voteRoutes.post("/add_vote" ,async (req,res) => {
 
     try {
 		pool.query(Vote.addVote(),[voter_uid,party_id,alliance_id,constituency_id,
-            candidate_name,new Date(datetime),browser_name,os_name,os_version,
+            candidate_name,datetime,browser_name,os_name,os_version,
             device_platform,voter_ip]).then((response)=>{
                 res.status(200).json({type:'success'})
             });
