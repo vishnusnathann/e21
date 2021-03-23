@@ -53,10 +53,11 @@
 
     .select-action-container h1{
         font-weight: bold;
-
         font-family: Open Sans;
         font-style: normal;
         font-size: 2rem;
+        text-shadow: 0 4px 8px rgb(0 0 0 / 30%);
+        color: #8e44ad;
     }
 
 
@@ -83,7 +84,7 @@
     }
 
     .go-vote-button{
-        margin:3rem auto;
+        /* margin:3rem auto;
         margin-top: 3rem;
         width: 150px;
         padding: .5rem;
@@ -98,6 +99,28 @@
         color: #fff;
         background-color: #3975a7;
         text-decoration: none !important;
+         */
+        margin:3rem auto;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        width: 140px;
+        height: 45px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
     }
 
     button:disabled{
@@ -106,9 +129,12 @@
     }
 
     .go-vote-button:hover{
-        background-color: #205988;
-        
+        background-color: #2EE59D;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-3px);
     }
+
     .icon{
         font-family: 1.5rem;
         margin-right: .5rem;
@@ -247,9 +273,15 @@
     flex-direction: column;
     justify-content: center;
     }
-    .timeline .box .container .cards .card.mid {
-    /* height: 75px; */
+    .timeline .box .container .cards .card:hover {
+        transform: translateY(-3px);
+        transform: translate(5px);
+        transition: all 0.3s ease 0s;
+        transform: scale(1.05);
     }
+    /* .timeline .box .container .cards .card.mid {
+     height: 75px; 
+    } */
     .timeline .box .container .cards .card h4 {
     font-family: Open Sans;
     font-style: normal;
@@ -267,7 +299,7 @@
     font-weight: normal;
     font-size: .8rem;
     /* line-height: 22px; */
-    color: #898989;
+    /* color: #898989; */
     margin-left: 25px;
     margin: 0;
     }

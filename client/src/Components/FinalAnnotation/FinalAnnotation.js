@@ -18,6 +18,14 @@ const FinalAnnotation = () => {
 useEffect(() => {
     
     setTimeout(() => {
+        localStorage.setItem("e21_vote_done", true);
+        if(localStorage.getItem("attempts")===null)
+            localStorage.setItem("attempts", 1);
+        else
+            localStorage.setItem("attempts", parseInt(localStorage.getItem("attempts"))+1);
+    }, 0);
+
+    setTimeout(() => {
         setfire(!fire );
     }, 200);
 
@@ -31,7 +39,7 @@ useEffect(() => {
 
 
     return (
-        <div className="final-annotation-container" 
+        <div className="final-annotation-container" style={{backgroundImage:"url('./banner3.png')"}}
         onClick={()=>{
             setfire(!fire)
         }}
@@ -113,7 +121,8 @@ useEffect(() => {
 
                 <img src={'./vote.png'} />
                 {
-                    localStorage.getItem("e21_vote_done") ?
+                   
+                    parseInt(localStorage.getItem("attempts"))>1 ?
                     <h1 className="fade-in-fwd">
                         You have already voted!
                     </h1>

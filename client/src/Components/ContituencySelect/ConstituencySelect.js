@@ -111,17 +111,17 @@ const ConstituencySelect = (props) => {
                             {/* <div className="line"></div> */}
                         </div>
                         <div className="cards">
-                            <div className="card">
+                            <div className="card" style={{backgroundColor: "#e67e22",color:"#fff"}}>
                                 <h4>Step 1</h4>
                                 <p>Select Constituency</p>
                             </div>
-                            <div className="card mid">
+                            <div className="card mid" style={{backgroundColor: "#ecf0f1"}}>
                                 <h4>Step 2</h4>
                                 <p>Cast your Vote</p>
                             </div>
-                            <div className="card">
+                            <div className="card" style={{backgroundColor: "#27ae60",color:"#fff"}}>
                                 <h4>Step 3</h4>
-                                <p>See Results</p>
+                                <p>See Results on 7th April 2021</p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ const ConstituencySelect = (props) => {
 
             <div className="constituency-select-container" >
                     <div className="select-action-container">
-                        <h1>Choose your Constituency</h1>
+                        <h1>Select your Constituency</h1>
                         <div className="select-wrapper">
                             <Select
                                 isClearable
@@ -145,7 +145,7 @@ const ConstituencySelect = (props) => {
                                 onChange={handleChange}
                                 options={constituencyOptions}
                                 className='select'
-                                placeholder="Select Constituency"
+                                placeholder="Choose Constituency"
                                 components={{ IndicatorsContainer }}
                             />
                             <Select
