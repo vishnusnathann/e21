@@ -182,7 +182,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 30px;
-    color: #ffffff;
+    color: #000;
     /* margin-left: 66px;
     margin-top: 40px; */
     }
@@ -195,7 +195,7 @@
     /* identical to box height */
     /* margin-left: 66px;
     margin-top: 10px; */
-    color: #ffffff;
+    color: #000;
     }
     .timeline .box {
     width: 100%;
