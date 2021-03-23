@@ -96,7 +96,7 @@
 }
 
 .ballot-unit .signal{
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,8 +116,8 @@
 }
 
 .ballot-button{
-    width: 30px;
-    height: 20px;
+    width: 40px;
+    height: 25px;
     border-radius: .7rem;
     background-color: #286A91;
     border: none;
