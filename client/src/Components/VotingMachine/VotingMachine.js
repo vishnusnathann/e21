@@ -20,6 +20,7 @@ const VotingMachine = (props) => {
     const deviceDetector = new DeviceDetector();
     const userAgent = getUA;
     const device = deviceDetector.parse(userAgent);
+    const [voterIP, setVoterIP] = useState(null);
 
     let audio = new Audio("/beep.mp3")
 
@@ -30,6 +31,11 @@ const VotingMachine = (props) => {
         if(!props.selectedConstituency){
             props.history.push("/");
         }
+
+        axios.get(`https://www.cloudflare.com/cdn-cgi/trace`).then(response =>{
+            let patt = /[\n\r].*ip=\s*([^\n\r]*)/i;
+            setVoterIP(response.data.match(patt)[1])
+        });
 
         axios.get(`${baseURL}/api/vote/csrf`).then(response =>{
             setcsrfToken(response.data.csrfToken);
@@ -77,7 +83,8 @@ const VotingMachine = (props) => {
                 browser_name:userInfo.browser.name,
                 os_name:userInfo.os.name,
                 os_version:userInfo.os.version,
-                device_platform:userInfo.platform.type
+                device_platform:userInfo.platform.type,
+                voter_ip : voterIP
             }
         }
         else{
@@ -91,7 +98,8 @@ const VotingMachine = (props) => {
                 browser_name:userInfo.browser.name,
                 os_name:userInfo.os.name,
                 os_version:userInfo.os.version,
-                device_platform:userInfo.platform.type
+                device_platform:userInfo.platform.type,
+                voter_ip : voterIP
             }
             
             if(notaSelected)
