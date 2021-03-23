@@ -16,14 +16,20 @@ const FinalAnnotation = () => {
     const [reset, setreset] = useState(false);
 
 useEffect(() => {
+        
+    setTimeout(() => {
+        localStorage.setItem("e21_vote_done", true);
+        if(localStorage.getItem("attempts")===null)
+            localStorage.setItem("attempts", 1);
+        else
+            localStorage.setItem("attempts", parseInt(localStorage.getItem("attempts"))+1);
+    }, 0);
     
     setTimeout(() => {
         setfire(!fire );
-    }, 200);
+    }, 0);
 
-    setTimeout(() => {
-        localStorage.setItem("e21_vote_done", true);
-    }, 1500);
+    
     
 }, [])
         
@@ -112,7 +118,7 @@ useEffect(() => {
 
                 <img src={'./vote.png'} />
                 {
-                    localStorage.getItem("e21_vote_done") ?
+                    parseInt(localStorage.getItem("attempts"))>1 ?
                     <h1 className="fade-in-fwd">
                         You have already voted!
                     </h1>
