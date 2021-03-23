@@ -22,6 +22,9 @@
     flex-direction: column;
     margin: 2rem;
     margin-top: 0;
+
+    border: 1px solid red;
+
     
 }
 .select-action-container{
@@ -33,8 +36,11 @@
 }
 
 .select-action-container h1{
-    font-size: 2.1rem;
-    font-weight: bolder;
+    font-weight: bold;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 2rem;
 }
 
 
@@ -136,7 +142,7 @@ button:disabled{
 .timeline {
   width: auto;
   height: auto;
-  /* padding: 1rem; */
+  padding: 3rem;
   background: #ecf1f524;
   mix-blend-mode: normal;
   backdrop-filter: blur(15px);
@@ -154,8 +160,8 @@ button:disabled{
   font-size: 22px;
   line-height: 30px;
   color: #ffffff;
-  margin-left: 66px;
-  margin-top: 40px;
+  /* margin-left: 66px;
+  margin-top: 40px; */
 }
 .timeline label {
   font-family: Open Sans;
@@ -164,20 +170,23 @@ button:disabled{
   font-size: 16px;
   line-height: 22px;
   /* identical to box height */
-  margin-left: 66px;
-  margin-top: 10px;
+  /* margin-left: 66px;
+  margin-top: 10px; */
   color: #ffffff;
 }
 .timeline .box {
   width: 100%;
-  height: 309px;
-  background: #fbfcfd;
+  height: auto;
+  background: #fbfcfdd0;
   margin-top: 99.5px;
+  
 }
 .timeline .box .container {
   width: 100%;
-  height: 357px;
+  height: auto;
   display: flex;
+  padding-right: 3rem;
+  
 }
 .timeline .box .container .lines {
   margin-left: 1rem;

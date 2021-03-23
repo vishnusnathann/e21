@@ -98,8 +98,8 @@ const ConstituencySelect = (props) => {
             <div className="main">
             
             <div className="timeline">
-                <h3>Updates</h3>
-                <label>23 in the last 7 hours</label>
+                <h3>Virtual Election</h3>
+                <label>Kerala Legislative Assembly - 2021</label>
                 <div className="box">
                     <div className="container">
                         <div className="lines">
@@ -108,20 +108,20 @@ const ConstituencySelect = (props) => {
                             <div className="dot"></div>
                             <div className="line"></div>
                             <div className="dot"></div>
-                            <div className="line"></div>
+                            {/* <div className="line"></div> */}
                         </div>
                         <div className="cards">
                             <div className="card">
-                                <h4>16:30</h4>
-                                <p>Believing Is The Absence Of Doubt</p>
+                                <h4>Step 1</h4>
+                                <p>Select Constituency</p>
                             </div>
                             <div className="card mid">
-                                <h4>15:22</h4>
-                                <p>Start With A Baseline</p>
+                                <h4>Step 2</h4>
+                                <p>Cast your Vote</p>
                             </div>
                             <div className="card">
-                                <h4>14:15</h4>
-                                <p>Break Through Self Doubt And Fear</p>
+                                <h4>Step 3</h4>
+                                <p>See Results</p>
                             </div>
                         </div>
                     </div>
