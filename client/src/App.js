@@ -16,7 +16,10 @@ const [constituencySelectFlag, setConstituencySelectFlag] = useState(false);
 
 
 return (
-	<div className="App">
+	<div className="App" >
+		<div >
+		</div>
+
 		<Router>
 			<Navbar/>
 			<Switch>

@@ -16,20 +16,14 @@ const FinalAnnotation = () => {
     const [reset, setreset] = useState(false);
 
 useEffect(() => {
-        
-    setTimeout(() => {
-        localStorage.setItem("e21_vote_done", true);
-        if(localStorage.getItem("attempts")===null)
-            localStorage.setItem("attempts", 1);
-        else
-            localStorage.setItem("attempts", parseInt(localStorage.getItem("attempts"))+1);
-    }, 0);
     
     setTimeout(() => {
         setfire(!fire );
-    }, 0);
+    }, 200);
 
-    
+    setTimeout(() => {
+        localStorage.setItem("e21_vote_done", true);
+    }, 1500);
     
 }, [])
         
@@ -44,7 +38,7 @@ useEffect(() => {
         >
             <Confetti
                 style={style}
-                className={'yourClassName'}
+                className={'confetti'}
                 particleCount={700}
                 fire={fire}
                 resize={true}
@@ -56,14 +50,14 @@ useEffect(() => {
                 ticks={500}
                 startVelocity={55}
                 scalar={0.8}
-                gravity={.7}
+                gravity={.9}
                 angle={180}
                 spread={360}
             />
 
             <Confetti
                 style={style}
-                className={'yourClassName'}
+                className={'confetti'}
                 particleCount={700}
                 fire={fire}
                 resize={true}
@@ -75,13 +69,13 @@ useEffect(() => {
                 ticks={500}
                 startVelocity={55}
                 scalar={0.8}
-                gravity={.7}
+                gravity={.9}
                 angle={180}
                 spread={360}
             />
             <Confetti
                 style={style}
-                className={'yourClassName'}
+                className={'confetti'}
                 particleCount={700}
                 fire={fire}
                 resize={true}
@@ -93,13 +87,13 @@ useEffect(() => {
                 ticks={500}
                 startVelocity={55}
                 scalar={0.8}
-                gravity={.7}
+                gravity={.9}
                 angle={180}
                 spread={360}
             />
             <Confetti
                 style={style}
-                className={'yourClassName'}
+                className={'confetti'}
                 particleCount={700}
                 fire={fire}
                 resize={true}
@@ -111,14 +105,15 @@ useEffect(() => {
                 ticks={500}
                 startVelocity={55}
                 scalar={0.8}
-                gravity={.7}
+                gravity={.9}
                 angle={180}
                 spread={360}
+                zIndex={9999}
             />
 
                 <img src={'./vote.png'} />
                 {
-                    parseInt(localStorage.getItem("attempts"))>1 ?
+                    localStorage.getItem("e21_vote_done") ?
                     <h1 className="fade-in-fwd">
                         You have already voted!
                     </h1>

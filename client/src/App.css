@@ -4,7 +4,18 @@
   height: 100vh;
   width: 100vw;
   overflow-y: auto;
-  
+
+  /* background-blend-mode: ; */
 }
 
+
+.cover{
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgb(20,20,20);
+  background: linear-gradient(180deg, rgba(20,20,20,0.4881302862942052) 0%, rgba(82,82,82,0.034348773689163115) 10%, rgba(130,130,130,0.0035364487591911242) 50%, rgba(68,68,68,0.03995101458552175) 90%);
+
+}
 

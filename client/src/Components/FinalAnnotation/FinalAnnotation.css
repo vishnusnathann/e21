@@ -21,6 +21,10 @@
 
 }
 
+.confetti{
+    z-index: 5 !important;
+}
+
 @keyframes fade-in-fwd {
     0% {
     transform: translateZ(-80px);
