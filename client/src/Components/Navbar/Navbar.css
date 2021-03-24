@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .navbar-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 52px;
-    background-color: rgb(49, 49, 49);
-    color: #fff;
+    background-color: #3d3d3d;
+    /* box-shadow: 8px 8px 15px 5px rgb(0, 0, 0) !important; */
+    /* background-color: rgb(49, 49, 49); */
+    color: rgb(226, 225, 225);
     z-index: 5;
+    
 }
 
 .logo-container{
@@ -15,11 +20,13 @@
     align-items: center;
 }
 .logo-container h1{
+    font-family: 'Raleway', sans-serif;
     font-size: 1.1rem;
     text-align: center;
     line-height: .9;
 }
 .logo-container h1 small{
+    font-family: 'Chakra Petch', sans-serif;
     font-size: .9rem;
 }
 .logo-container .logo{
@@ -32,5 +39,5 @@
 .branding{
     margin-right: 1rem;
     font-size: .8rem;
-    color: blanchedalmond;
+    /* color: rgb(108, 108, 108); */
 }

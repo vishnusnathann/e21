@@ -149,7 +149,7 @@ const VotingMachine = (props) => {
                                     <div className="candidate-details">
                                         <div className="candiate-name">
                                             <span className="candidate-order-number">
-                                                {index+1}
+                                                {index+1}.
                                             </span>
                                             <span className="separator">
                                             </span>
@@ -180,7 +180,7 @@ const VotingMachine = (props) => {
                         <div className="candidate">
                             <div className="candidate-details">
                                 <div className="candiate-name">
-                                    <span className="candidate-order-number">{voterContituencyObject.candidates.length+1}</span>
+                                    <span className="candidate-order-number">{voterContituencyObject.candidates.length+1}.</span>
                                     <span className="separator">
                                     </span>
                                     <span>

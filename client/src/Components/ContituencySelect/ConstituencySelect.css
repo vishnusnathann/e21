@@ -22,8 +22,6 @@
             background-position-y: center;
             flex-direction: row;
         }
-
-
     }
 
 
@@ -128,8 +126,8 @@
     }
 
     .go-vote-button:hover{
-        background-color: #407fb4;
-        box-shadow: 0px 15px 20px rgba(46, 189, 229, 0.4);
+        background-color: #2EE59D;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
         color: #fff;
         transform: translateY(-3px);
     }
@@ -348,6 +346,16 @@
     .timeline .box .bottom .btn:hover {
     transform: scale(.7);
     }
+
+    .user-msg{
+        font-size: .7rem;
+        max-width: 200px !important;
+        overflow: hidden;
+        color: rgb(98, 98, 98);
+        line-height: 2px;
+    }
+
+
 
     @media screen and (max-width:768px){
         .timeline {

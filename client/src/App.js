@@ -36,6 +36,7 @@ return (
 				<Route path="/vote_casted"  exact render={props => 
 					<FinalAnnotation {...props} />}
 				/>
+				<Redirect to="/"/>
 			</Switch>
 		</Router>
 	</div>

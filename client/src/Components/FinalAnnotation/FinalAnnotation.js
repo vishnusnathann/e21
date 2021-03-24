@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './FinalAnnotation.css';
 import Confetti from 'react-canvas-confetti';
+import { HiSpeakerphone } from "react-icons/hi";
 
 const FinalAnnotation = () => {
     const ref = useRef(false);
@@ -120,17 +121,24 @@ useEffect(() => {
             />
 
                 <div className="annotation-card">
-                    <img src={'./finalimage.svg'} />
+                    <img src={'./voteicon.jpg'} className="final-annotation-icon"/>
                     {
                     
                         parseInt(localStorage.getItem("attempts"))>1 ?
-                        <h1 className="fade-in-fwd">
-                            You have already voted!
-                        </h1>
+                        <div className="annotation-text-container">
+                            <h1 className="fade-in-fwd">
+                                You have already voted!
+                            </h1>
+                            <small><HiSpeakerphone/> Results will be announced on <b>07/03/21</b></small>
+                        </div>
                         :
-                        <h1 className="fade-in-fwd">
-                            Thank you for Voting!
-                        </h1>
+                        <div  className="annotation-text-container">
+                            <h1 className="fade-in-fwd">
+                                Thank you for Voting!
+                            </h1>
+                            <small><HiSpeakerphone/> Results will be announced on <b>07/03/21</b></small>
+                        </div>
+                        
                     }
                 </div>
             
