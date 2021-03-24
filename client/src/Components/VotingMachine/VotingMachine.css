@@ -1,14 +1,22 @@
+.voting-machine-main-wrapper{
+    min-height: calc(100vh - 52px);
+    display: flex;
+    align-items: center;
+    background: linear-gradient(189deg, rgba(180,180,180,1) 0%, rgba(249,249,249,1) 94%, rgba(255,255,255,1) 100%);
+}
+
 .voting-machine-container{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     overflow-y: auto;
     align-items: center;
-    width: calc(min(600px,90%));
+    width: calc(min(500px,90%));
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    box-shadow: 1px 2px 26px -3px rgba(79,79,79,0.64);
     border-radius: .5rem;    
     background-color: #E9EAE4;
     padding-bottom: 1rem;
@@ -51,8 +59,8 @@
     background-color: #fff;
     border: 2px solid rgb(189, 189, 189);
     border-top: 0px;
-    border-radius: .5rem;
-    margin-left: .5rem;
+    /* border-radius: .5rem; */
+    border-left: .5rem solid rgb(179, 179, 179);
 }
 
 

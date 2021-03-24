@@ -1,8 +1,7 @@
 
-    @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 
     .constituency-main-wrapper{
-        font-family: "Mulish", sans-serif;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -12,6 +11,7 @@
         background-size:50%;
         background-position: center;
         background-position-x: 20vw;
+        background-position-y: 65vh;
         min-height: calc(100vh - 52px);
         
     }
@@ -19,10 +19,8 @@
 
     @media screen and (min-width:768px){
         .constituency-main-wrapper{
-            /* flex-direction: row; */
+            background-position-y: center;
             flex-direction: row;
-            
-
         }
 
 
@@ -38,7 +36,7 @@
         flex-direction: column;
         margin: 2rem;
         margin-top: 0;
-
+        height: auto;
         /* border: 1px solid red; */
 
         
@@ -52,12 +50,13 @@
     }
 
     .select-action-container h1{
-        font-weight: bold;
+        font-weight: bolder;
         font-family: Open Sans;
         font-style: normal;
-        font-size: 2rem;
+        font-size: 2.2rem;
+
         text-shadow: 0 4px 8px rgb(0 0 0 / 30%);
-        color: #8e44ad;
+        color: #407fb4;
     }
 
 
@@ -125,14 +124,21 @@
 
     button:disabled{
         opacity: .7;
-        
+        cursor: not-allowed;
     }
 
     .go-vote-button:hover{
-        background-color: #2EE59D;
-        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        background-color: #407fb4;
+        box-shadow: 0px 15px 20px rgba(46, 189, 229, 0.4);
         color: #fff;
         transform: translateY(-3px);
+    }
+
+    button:disabled:hover{
+        background-color: #fff;
+        box-shadow:none;
+        color: #000;
+        transform: translateY(0px);
     }
 
     .icon{
@@ -147,6 +153,11 @@
         
     }
 
+    @media screen and (max-width:768px){
+        .constituency-select-container{
+            min-height: calc(100vh - 52px);
+        }
+    }
 
 
 
@@ -266,18 +277,19 @@
     background: #ffffff;
     box-shadow: 0 2px 2px 0 #eeeeee40;
     border-radius: 10px;
-    box-shadow: 0px 16px 15px -10px rgba(105, 96, 215, 0.0944602);
+    box-shadow: 0px 16px 15px -10px rgba(105, 96, 215, 0.3);
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    transition: .5s;
     }
     .timeline .box .container .cards .card:hover {
         transform: translateY(-3px);
         transform: translate(5px);
-        transition: all 0.3s ease 0s;
-        transform: scale(1.05);
+        transition: .5s;
+        transform: scale(1.03);
     }
     /* .timeline .box .container .cards .card.mid {
      height: 75px; 
@@ -341,6 +353,11 @@
         .timeline {
             margin: 0;
             margin-bottom: 3rem;
+            padding: 0;
+        }
+
+        .container{
+            padding: 0;
         }
         
     }

@@ -1,9 +1,13 @@
+
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
 .App {
   text-align: center;
   /* font-family:  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'; */
   height: 100vh;
   width: 100vw;
   overflow-y: auto;
+  font-family: "Mulish", sans-serif;
 
   /* background-blend-mode: ; */
 }

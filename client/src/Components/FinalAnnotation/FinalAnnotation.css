@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-repeat: repeat-x;
+    background-repeat:no-repeat;
     background-size: contain;
 }
 
@@ -18,13 +18,25 @@
 }
 
 .final-annotation-container img{
-    width: 130px;
+    width: calc(min(70%,350px));
     animation: fade-in-fwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 }
 
 .confetti{
     z-index: 5 !important;
+}
+
+.annotation-card{
+    font-family: "Mulish", sans-serif;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-radius: 1rem;
+    box-shadow: 2px 1px 49px -12px rgba(79,79,79,0.75); */
+
 }
 
 @keyframes fade-in-fwd {

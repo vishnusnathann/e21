@@ -132,6 +132,8 @@ const VotingMachine = (props) => {
 
     
         return (
+            <div className="voting-machine-main-wrapper">
+
             <div className="voting-machine-container">
                 <div className="top-unit">
                     Ready <BsCircleFill className="ready-icon"/>
@@ -207,8 +209,11 @@ const VotingMachine = (props) => {
                     }
 
                     
+
+                    
                     
                 </div>
+            </div>
             </div>
         )
 }

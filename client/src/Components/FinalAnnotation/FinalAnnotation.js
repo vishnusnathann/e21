@@ -39,7 +39,7 @@ useEffect(() => {
 
 
     return (
-        <div className="final-annotation-container" style={{backgroundImage:"url('./banner3.png')"}}
+        <div className="final-annotation-container" 
         onClick={()=>{
             setfire(!fire)
         }}
@@ -119,18 +119,20 @@ useEffect(() => {
                 zIndex={9999}
             />
 
-                <img src={'./vote.png'} />
-                {
-                   
-                    parseInt(localStorage.getItem("attempts"))>1 ?
-                    <h1 className="fade-in-fwd">
-                        You have already voted!
-                    </h1>
-                    :
-                    <h1 className="fade-in-fwd">
-                        Thank you for Voting!
-                    </h1>
-                }
+                <div className="annotation-card">
+                    <img src={'./finalimage.svg'} />
+                    {
+                    
+                        parseInt(localStorage.getItem("attempts"))>1 ?
+                        <h1 className="fade-in-fwd">
+                            You have already voted!
+                        </h1>
+                        :
+                        <h1 className="fade-in-fwd">
+                            Thank you for Voting!
+                        </h1>
+                    }
+                </div>
             
             
         </div>
