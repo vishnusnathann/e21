@@ -5,7 +5,11 @@ const voteRoutes = express.Router();
 const hash = require('object-hash');
 const requestIp = require('request-ip');
 const csrf = require('csurf')
-const csrfProtection = csrf({ cookie: true })
+const csrfProtection = csrf({  cookie: {
+    key: 'H#^$*D&E&*F@HF',
+    httpOnly: true,
+    maxAge: 90 // 1-hour
+} })
 
 
 
