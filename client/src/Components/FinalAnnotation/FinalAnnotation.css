@@ -21,6 +21,7 @@
 }
 
 .final-annotation-container img{
+    width: 300px;
     width: calc(min(50%,300px));
     animation: fade-in-fwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 

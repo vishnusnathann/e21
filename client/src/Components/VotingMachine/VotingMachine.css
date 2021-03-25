@@ -12,6 +12,7 @@
     /* justify-content: center; */
     overflow-y: auto;
     align-items: center;
+    width: 70%;
     width: calc(min(500px,90%));
     margin: 0 auto;
     margin-top: 2rem;
