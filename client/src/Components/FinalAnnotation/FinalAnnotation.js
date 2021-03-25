@@ -129,14 +129,14 @@ useEffect(() => {
                             <h1 className="fade-in-fwd">
                                 You have already voted!
                             </h1>
-                            <small><HiSpeakerphone/> Results will be announced on <b>07/03/21</b></small>
+                            <small><HiSpeakerphone/> Results will be announced on <b>7th April 2021</b></small>
                         </div>
                         :
                         <div  className="annotation-text-container">
                             <h1 className="fade-in-fwd">
                                 Thank you for Voting!
                             </h1>
-                            <small><HiSpeakerphone/> Results will be announced on <b>07/03/21</b></small>
+                            <small><HiSpeakerphone/> Results will be announced on <b>7th April 2021</b></small>
                         </div>
                         
                     }

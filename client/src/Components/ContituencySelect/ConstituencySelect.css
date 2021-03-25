@@ -352,6 +352,7 @@
     }
 
     .user-msg{
+        
         font-size: .7rem;
         max-width: 200px !important;
         overflow: hidden;
