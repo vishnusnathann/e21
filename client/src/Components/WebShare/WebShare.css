@@ -1,0 +1,11 @@
+.web-share-api-container{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    /* border: 1px solid gray; */
+    padding: .5rem;
+}
+
+.web-share-api-container img{
+    width: 3rem;
+}
