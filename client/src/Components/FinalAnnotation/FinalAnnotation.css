@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
 .final-annotation-container{
+    height: 100vh;
     height: calc(100vh - 52px);
     display: flex;
     justify-content: center;
@@ -21,7 +22,7 @@
 }
 
 .final-annotation-container img{
-    width: 300px;
+    width: 250px;
     width: calc(min(50%,300px));
     animation: fade-in-fwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
