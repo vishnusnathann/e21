@@ -11,7 +11,7 @@
 11,Nationalist Congress Kerala,NCK,2
 12,Nationalist Congress Party,NCP,1
 13,Indian National League,INL,1
-14,Congress (Secular),C(S),1
+14,Congress (Secular),Con(S),1
 15,Janadhipathya Kerala Congress,JKC,1
 16,Kerala Congress (B),KC(B),1
 17,Revolutionary Socialist Party (Leninist),RSP(L),1
@@ -22,7 +22,7 @@
 22,Bharath Dharma Jana Sena,BDJS,3
 23,Kerala Janapaksham (Secular),KJ(S),4
 24,Kerala Kamaraj Congress,KKC,3
-25,Janadhipathya Rashtriya Sabha,JSS,1
+25,Janadhipathya Rashtriya Sabha,JRS,3
 26,All India Anna Dravida Munnetra Kazhagam,AIADMK,3
 27,Socialist Janata Dal,SJD,4
 28,Lok Janshakti Party,LJP,4
