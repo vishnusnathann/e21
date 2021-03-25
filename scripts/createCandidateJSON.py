@@ -26,7 +26,7 @@ for items in data:
         constituency['constituency_name']=item[1]
         candidates=[]
         #print(item[0])
-        for i in range(2,len(item),2):
+        for i in range(2,len(item)-1,2):
             candidate={}
             party_code=item[i].lower()
             candidate['candidate_name']=item[i+1]

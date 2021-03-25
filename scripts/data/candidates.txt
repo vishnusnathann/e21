@@ -12,7 +12,7 @@ Kannur district
 10,Azhikode,CPI(M),K. V. Sumesh,IUML,K. M. Shaji,BJP,K. Ranjith
 11,Kannur,Con(S),Kadannappalli Ramachandran,INC,Satheeshan Pacheni,BJP,Archana Vandichal
 12,Dharmadom,CPI(M),Pinarayi Vijayan,INC,C. Raghunath,BJP,C. K. Padmanabhan
-13,Thalassery,CPI(M),A. N. Shamseer,INC,M. P. Aravindakshan,,
+13,Thalassery,CPI(M),A. N. Shamseer,INC,M. P. Aravindakshan,
 14,Kuthuparamba,LJD,K. P. Mohanan,IUML,Pottankandi Abdulla,BJP,C. Sadanandan Master
 15,Mattanur,CPI(M),K. K. Shailaja,RSP,Illikkal Agasthy,BJP,Biju Elakkuzhi
 16,Peravoor,CPI(M),Sakeer Hussain,INC,Sunny Joseph,BJP,Smitha Jayamohan
@@ -67,7 +67,7 @@ Palakkad district
 Thrissur district
 61,Chelakkara,CPI(M),K. Radhakrishnan,INC,C. C. Sreekumar,BJP,Shajumon Vattekkad
 62,Kunnamkulam,CPI(M),A. C. Moideen,INC,K. Jayasankar,BJP,K. K. Aneeshkumar
-63,Guruvayur,CPI(M),N. K. Akbar,IUML,K. N. A. Khader,,Dileep Nair
+63,Guruvayur,CPI(M),N. K. Akbar,IUML,K. N. A. Khader,Ind.,Dileep Nair
 64,Manalur,CPI(M),Murali Perunelly,INC,Vijaya Hari,BJP,A. N. Radhakrishnan
 65,Wadakkanchery,CPI(M),Xavier Chittilappilly,INC,Anil Akkara,BJP,T. S. Ullas Babu
 66,Ollur,CPI,K. Rajan,INC,Jose Valloor,BJP,B. Gopalakrishnan
@@ -128,7 +128,7 @@ Pathanamthitta district
 Kollam district
 116,Karunagapally,CPI,R. Ramachandran,INC,C. R. Mahesh,BJP,Bitty Sudheer
 117,Chavara,Ind.,Sujith Vijayan,RSP,Shibu Baby John,BJP,Vivek Gopan
-118,Kunnathur,Ind.[35],Kovoor Kunjumon,RSP,Ullas Kovoor,BJP,Raji Prasad
+118,Kunnathur,Ind.,Kovoor Kunjumon,RSP,Ullas Kovoor,BJP,Raji Prasad
 119,Kottarakkara,CPI(M),K. N. Balagopal,INC,Resmi R,BJP,Vayakkal Soman
 120,Pathanapuram,KC(B),K. B. Ganesh Kumar,INC,Jyothikumar Chamakkala,BJP,Jithin Dev
 121,Punalur,CPI,P. S. Supal,IUML,Abdul Rahman Randathani,BJP,Ayoor Murali
