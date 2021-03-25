@@ -3,10 +3,12 @@ import  { Suspense, lazy } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Loader from './Components/Loader/Loader';
+import VotingMachine from './Components/VotingMachine/VotingMachine';
+import FinalAnnotation from './Components/FinalAnnotation/FinalAnnotation';
 
 const ConstituencySelect = lazy(() => import('./Components/ContituencySelect/ConstituencySelect'));
-const VotingMachine = lazy(() => import('./Components/VotingMachine/VotingMachine'));
-const FinalAnnotation = lazy(() => import('./Components/FinalAnnotation/FinalAnnotation'));
+// const VotingMachine = lazy(() => import('./Components/VotingMachine/VotingMachine'));
+// const FinalAnnotation = lazy(() => import('./Components/FinalAnnotation/FinalAnnotation'));
 const Navbar = lazy(() => import ('./Components/Navbar/Navbar'));
 
 
