@@ -124,10 +124,11 @@ const ConstituencySelect = (props) => {
                                 <p>See Results on 7th April 2021</p>
                             </div>
                             <small className="user-msg">
-                            The survey is conducted purly for <br/> 
-                            research purpose,The site never <br/> 
-                            gurantee any validity for the data <br/> 
-                            displayed.
+                                
+                                The survey is conducted purely for <br/>
+                                research purpose, The site never <br/>
+                                guarantee any validity for the data <br/>
+                                displayed
                             </small>
                             
                         </div>
