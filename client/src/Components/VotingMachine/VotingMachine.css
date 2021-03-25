@@ -95,7 +95,7 @@
 
 .election-symbol img{
     padding-right: 1rem;
-    width: calc(max(30%,40px));
+    width: 35px;
     align-self: flex-end;
 }
 

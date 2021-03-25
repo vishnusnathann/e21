@@ -4,6 +4,7 @@
     right: 5px;
     /* border: 1px solid gray; */
     padding: .5rem;
+    z-index: 9999;
 }
 
 .web-share-api-container img{
