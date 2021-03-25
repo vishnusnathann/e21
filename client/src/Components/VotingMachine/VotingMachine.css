@@ -2,7 +2,7 @@
     min-height: calc(100vh - 52px);
     display: flex;
     align-items: center;
-    background: linear-gradient(189deg, rgba(180,180,180,1) 0%, rgba(249,249,249,1) 94%, rgba(255,255,255,1) 100%);
+    /* background: linear-gradient(189deg, rgba(180,180,180,1) 0%, rgba(249,249,249,1) 94%, rgba(255,255,255,1) 100%); */
 }
 
 .voting-machine-container{

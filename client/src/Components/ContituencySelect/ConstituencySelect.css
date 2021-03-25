@@ -11,7 +11,7 @@
         background-size:50%;
         background-position: center;
         background-position-x: 20vw;
-        background-position-y: 65vh;
+        background-position-y: 0vh;
         min-height: calc(100vh - 52px);
         
     }
@@ -153,7 +153,7 @@
 
     @media screen and (max-width:768px){
         .constituency-select-container{
-            min-height: calc(100vh - 52px);
+           margin-top: 20vh;
         }
     }
 
