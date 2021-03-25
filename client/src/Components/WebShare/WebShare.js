@@ -9,7 +9,7 @@ const WebShare = () => {
             console.log("hai");
             navigator.share({
                 title: "Kerala Virtual elections",
-                text:"The virtual election for you",
+                text:"Kerala Virtual Election 2021 - Be part of the largest election survey of the state. Click on the link to participate.",
                 url: "https://kerala.virtualelections.live"
             });
         }
