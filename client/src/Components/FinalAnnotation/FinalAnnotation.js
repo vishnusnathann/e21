@@ -3,7 +3,8 @@ import './FinalAnnotation.css';
 import Confetti from 'react-canvas-confetti';
 import { HiSpeakerphone } from "react-icons/hi";
 
-const FinalAnnotation = () => {
+const FinalAnnotation = (props) => {
+
     const ref = useRef(false);
     
     const style = {
@@ -17,22 +18,25 @@ const FinalAnnotation = () => {
     const [reset, setreset] = useState(false);
 
 useEffect(() => {
+
+    if(!localStorage.getItem("e21_vote_cast"))
+        props.history.push("/");
+    else{
+        setTimeout(() => {
+            
+            if(localStorage.getItem("attempts")===null)
+                localStorage.setItem("attempts", 1);
+            else
+                localStorage.setItem("attempts", parseInt(localStorage.getItem("attempts"))+1);
+        }, 0);
+
+        setTimeout(() => {
+            setfire(!fire );
+        }, 200);
+    }
     
-    setTimeout(() => {
-        localStorage.setItem("e21_vote_done", true);
-        if(localStorage.getItem("attempts")===null)
-            localStorage.setItem("attempts", 1);
-        else
-            localStorage.setItem("attempts", parseInt(localStorage.getItem("attempts"))+1);
-    }, 0);
 
-    setTimeout(() => {
-        setfire(!fire );
-    }, 200);
 
-    setTimeout(() => {
-        localStorage.setItem("e21_vote_done", true);
-    }, 1500);
     
 }, [])
         

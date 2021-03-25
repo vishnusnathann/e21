@@ -14,8 +14,8 @@ voteRoutes.get('/csrf', csrfProtection, function (req, res) {
     res.status(200).json({ csrfToken: req.csrfToken() });
 })
 
-voteRoutes.post("/add_vote" ,csrfProtection,async (req,res) => {
-    
+voteRoutes.post("/add_vote" ,async (req,res) => {
+
     let {voter_id,party_id,alliance_id,constituency_id,
         candidate_name,datetime,browser_name,os_name,os_version,
         device_platform,voter_ip} = req.body;
