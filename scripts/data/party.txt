@@ -6,7 +6,7 @@
 6,Kerala Congress (M),KC(M),1
 7,Janata Dal (Secular),JD(S),1
 8,Loktantrik Janata Dal,LJD,1
-9,Kerala Congress (Joseph),KC(J),2
+9,Kerala Congress,KC,2
 10,Revolutionary Socialist Party,RSP,2
 11,Nationalist Congress Kerala,NCK,2
 12,Nationalist Congress Party,NCP,1
@@ -20,14 +20,13 @@
 20,All India Forward Bloc,AIFB,2
 21,Revolutionary Marxist Party of India,RMPI,2
 22,Bharath Dharma Jana Sena,BDJS,3
-23,Kerala Congress (Thomas),KC(T),3
+23,Kerala Janapaksham (Secular),KJ(S),4
 24,Kerala Kamaraj Congress,KKC,3
 25,Janadhipathya Rashtriya Sabha,JSS,1
 26,All India Anna Dravida Munnetra Kazhagam,AIADMK,3
-27,Socialist Janata Dal,SJD,
-28,Lok Janshakti Party,LJP,
-29,Bahujan Samaj Party,BSP,
-30,Aam Aadmi Party,AAP,
-31,Independent,Ind.,
-32,NOTA,NOTA,
-33,Kerala Janapaksham (Secular),KJ(S),
+27,Socialist Janata Dal,SJD,4
+28,Lok Janshakti Party,LJP,4
+29,Bahujan Samaj Party,BSP,4
+30,Aam Aadmi Party,AAP,4
+31,Independent,Ind.,4
+32,NOTA,NOTA,4
