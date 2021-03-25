@@ -155,6 +155,10 @@
         .constituency-select-container{
             margin-top: 10vh;
         }
+        .select-action-container{
+            min-height: auto;
+            margin-top: 15vh;
+        }
     }
 
 
