@@ -113,19 +113,32 @@ const VotingMachine = (props) => {
                 'CSRF-Token': csrfToken
             }},
             ).then(response =>{
-                if(response.data.type = 'success'){
+                try{
 
-                    localStorage.setItem("e21_vote_cast", true);
-
-                    setTimeout(() => {
-                        props.history.push("/vote_casted");
-                    }, 1000);
-                    
+                    if(response.data.vote_done){
+    
+                        localStorage.setItem("e21_vote_cast", true);
+    
+                        setTimeout(() => {
+                            props.history.push("/vote_casted");
+                        }, 1000);
+                        
+                    }
+                    else if(!response.data.vote_done){
+    
+                        localStorage.setItem("e21_vote_cast", true);
+    
+                        localStorage.setItem("attempts", 2);
+    
+                        setTimeout(() => {
+                            props.history.push("/vote_casted");
+                        }, 1000);
+                    }
+                }
+                catch(e){
+                    console.log(e)
                 }
             });
-        
-
-        
         
     }
 
