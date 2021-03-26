@@ -9,7 +9,9 @@ const WebShare = () => {
             //console.log("hai");
             navigator.share({
                 title: "Kerala Virtual elections",
-                text:"Kerala Virtual Election 2021 Survey - Be part of the largest election survey of the state. Click on the link to participate.",
+                text:`LDF ന് തുടർഭരണം ഉണ്ടാവുമോ? അതോ UDF ഭരണം തിരിച്ചു പിടിക്കുമോ? BJP എത്ര സീറ്റ്‌ വരെ നേടും?  \n
+                        ഇന്ന് തന്നെ നിങ്ങളുടെ അഭിപ്രായം രേഖപ്പെടുത്തു... 
+                        Kerala Virtual Election 2021 Survey - Be part of the largest election survey of the state. Click on the link to participate.`,
                 url: "https://kerala.virtualelections.live"
             });
         }
