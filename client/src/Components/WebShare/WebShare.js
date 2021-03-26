@@ -6,7 +6,7 @@ const WebShare = () => {
 
     const onShare =()=>{
         if (navigator.share) {
-            console.log("hai");
+            //console.log("hai");
             navigator.share({
                 title: "Kerala Virtual elections",
                 text:"Kerala Virtual Election 2021 - Be part of the largest election survey of the state. Click on the link to participate.",
@@ -14,7 +14,7 @@ const WebShare = () => {
             });
         }
         else{
-            console.log("sorry")
+            //console.log("sorry")
         }
     }
 
@@ -22,7 +22,7 @@ const WebShare = () => {
         return (
             <>
                 {
-                    isMobile ?
+                    (isMobile && navigator.share)?
                     <div className="web-share-api-container" onClick={()=>onShare()}>
                         <img src={"./share.svg"}/>
                         {/* Share */}

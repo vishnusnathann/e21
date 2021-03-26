@@ -35,7 +35,7 @@ const ConstituencySelect = (props) => {
 
     useEffect(() => {
 
-        console.log("hai iam working")
+        //console.log("hai iam working")
 
         setConstituencyOptions([]);
 
@@ -50,7 +50,7 @@ const ConstituencySelect = (props) => {
             }
             else{
                 if(selectDistrict.value == item.district){
-                    console.log(item.constituency)
+                    //console.log(item.constituency)
                     setConstituencyOptions(constituencyOptions => [...constituencyOptions,{
                         value:item.constituency,
                         label:item.constituency
@@ -58,7 +58,6 @@ const ConstituencySelect = (props) => {
                 }
             }
         })
-
     },[selectDistrict])
 
 

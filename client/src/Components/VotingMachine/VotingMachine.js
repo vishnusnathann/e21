@@ -29,7 +29,7 @@ const VotingMachine = (props) => {
         if(localStorage.getItem("e21_vote_cast"))
             props.history.push("/vote_casted");
 
-        console.log("device details",device);
+        //console.log("device details",device);
 
         if(!props.selectedConstituency){
             props.history.push("/");
@@ -45,7 +45,7 @@ const VotingMachine = (props) => {
         });
 
         let obj = candidateData.find(o => o.constituency_name === props.selectedConstituency);
-        console.log(obj);
+        //console.log(obj);
 
         setVoterContituencyObject(obj);
 
@@ -68,7 +68,6 @@ const VotingMachine = (props) => {
             device_platform:userInfo.platform.type,
             brand:device.device.brand,
             model:device.device.model
-
         })
 
 
