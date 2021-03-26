@@ -120,7 +120,7 @@ const ConstituencySelect = (props) => {
                             </div>
                             <div className="card" style={{backgroundColor: "#27ae60",color:"#fff"}}>
                                 <h4>Step 3</h4>
-                                <p>See Results on 7th April 2021</p>
+                                <p>See Results on 30th April 2021</p>
                             </div>
                             <small className="user-msg">
                                 <b>Disclaimer: </b> 
