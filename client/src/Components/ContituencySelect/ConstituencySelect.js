@@ -97,7 +97,7 @@ const ConstituencySelect = (props) => {
             <div className="main">
             
             <div className="timeline">
-                <h3>Virtual Election</h3>
+                <h3>Virtual Election Survey</h3>
                 <label>Kerala Legislative Assembly - 2021</label>
                 <div className="box">
                     <div className="container">
