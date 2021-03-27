@@ -125,23 +125,29 @@ useEffect(() => {
             />
 
                 <div className="annotation-card">
-                    <img src={'./voteicon.jpg'} className="final-annotation-icon"/>
+                    
                     {
                     
                         parseInt(localStorage.getItem("attempts"))>1 ?
+                        <>
+                        <img src={'./sadface.png'} className="final-annotation-icon" style={{width:'150px'}}/>
                         <div className="annotation-text-container">
                             <h1 className="fade-in-fwd">
                                 You have already voted!
                             </h1>
                             <small><HiSpeakerphone/> Results will be announced on <b>30th April 2021</b></small>
                         </div>
+                        </>
                         :
+                        <>
+                        <img src={'./voteicon.jpg'} className="final-annotation-icon"/>
                         <div  className="annotation-text-container">
                             <h1 className="fade-in-fwd">
                                 Thank you for Voting!
                             </h1>
                             <small><HiSpeakerphone/> Results will be announced on <b>30th April 2021</b></small>
                         </div>
+                        </>
                         
                     }
                 </div>

@@ -14,8 +14,8 @@ const Navbar = () => {
                 </h1>
             </div>
             <span className="branding">
-                <a href="http://rsoclabs.com/">
-                    Powered by <b>RSOCLabs</b>
+                <a href="https://rsoclabs.com/">
+                    Powered by <b>RSOC Labs</b>
                 </a>
             </span>
         </div>
