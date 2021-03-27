@@ -154,7 +154,7 @@ const ConstituencySelect = (props) => {
                                 placeholder="Choose Constituency"
                                 components={{ IndicatorsContainer }}
                             />
-                            <Select
+                            {/* <Select
                                 isClearable
                                 components={animatedComponents}
                                 value={selectDistrict}
@@ -162,7 +162,7 @@ const ConstituencySelect = (props) => {
                                 options={districtOptions}
                                 className='select-distict'
                                 placeholder="All"
-                            />
+                            /> */}
                         </div>
                         <div>
                             {
