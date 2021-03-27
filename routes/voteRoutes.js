@@ -19,6 +19,25 @@ voteRoutes.get('/csrf', csrfProtection, function (req, res) {
     res.status(200).json({ csrfToken: req.csrfToken() });
 })
 
+voteRoutes.get('/get_vote_count', function (req, res) {
+    if(req.query && req.query.pass =='Rx25dskd6753ffdkfndjfaseas9871'){
+        try{
+            pool.query(Vote.getVoteCount()).then((respone)=>{
+                console.log(respone.rows[0].count);
+                res.status(200).json({count:respone.rows[0].count});
+            })
+        }
+        catch(e){
+            res.status(401).json({ msg: 'Who the hell are you' });
+        }
+    }
+    else{
+        res.status(401).json({ msg: 'Who the hell are you' });
+    }
+        
+
+})
+
 voteRoutes.post("/add_vote",csrfProtection ,async (req,res) => {
 
     let {voter_id,party_id,alliance_id,constituency_id,
