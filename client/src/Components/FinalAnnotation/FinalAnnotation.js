@@ -38,7 +38,7 @@ useEffect(() => {
 
     setTimeout(() => {
         window.location = "https://rsoclabs.com/thankyou.html";
-    }, 5000);
+    }, 10000);
 
 
     
