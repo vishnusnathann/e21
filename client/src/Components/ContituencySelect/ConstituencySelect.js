@@ -97,8 +97,8 @@ const ConstituencySelect = (props) => {
             <div className="main">
             
             <div className="timeline">
-                <h3>Virtual Election Survey</h3>
-                <label>Kerala Legislative Assembly - 2021</label>
+                <h3>Virtual Election 2021</h3>
+                <label>കേരള നിയമസഭ തിരഞ്ഞെടുപ്പ് സർവ്വേ</label>
                 <div className="box">
                     <div className="container">
                         <div className="lines">
@@ -112,15 +112,15 @@ const ConstituencySelect = (props) => {
                         <div className="cards">
                             <div className="card" style={{backgroundColor: "#e67e22",color:"#fff"}}>
                                 <h4>Step 1</h4>
-                                <p>Select Constituency</p>
+                                <p>നിയോജകമണ്ഡലം തിരഞ്ഞെടുക്കുക</p>
                             </div>
                             <div className="card mid" style={{backgroundColor: "#ecf0f1"}}>
                                 <h4>Step 2</h4>
-                                <p>Cast your Vote</p>
+                                <p>വോട്ട് ചെയ്യുക</p>
                             </div>
                             <div className="card" style={{backgroundColor: "#27ae60",color:"#fff"}}>
                                 <h4>Step 3</h4>
-                                <p>See Results on 30th April 2021</p>
+                                <p>ഫലം അറിയുക - 30th April 2021</p>
                             </div>
                             <small className="user-msg">
                                 <b>Disclaimer: </b> 
@@ -151,7 +151,7 @@ const ConstituencySelect = (props) => {
                                 onChange={handleChange}
                                 options={constituencyOptions}
                                 className='select'
-                                placeholder="Choose Constituency"
+                                placeholder="മണ്ഡലം തിരഞ്ഞെടുക്കുക"
                                 components={{ IndicatorsContainer }}
                             />
                             {/* <Select

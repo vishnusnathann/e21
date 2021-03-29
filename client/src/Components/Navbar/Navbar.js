@@ -9,7 +9,7 @@ const Navbar = () => {
                 <h1>
                     Virtual Election 
                     <br/>
-                    <small>Kerala 2021</small>
+                    <small>കേരളം 2021</small>
                     
                 </h1>
             </div>
