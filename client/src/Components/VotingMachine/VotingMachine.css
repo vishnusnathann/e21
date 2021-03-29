@@ -70,7 +70,7 @@
 
 .candiate-name{
     padding-left: 1rem;
-    width: 70%;
+    width: 100%;
     font-size: .8rem;
     box-sizing: border-box;
 }
@@ -95,7 +95,7 @@
 }
 
 .election-symbol img{
-    padding-right: 1rem;
+    padding-right: 0.5rem;
     width: 35px;
     align-self: flex-end;
 }
@@ -157,5 +157,9 @@
     }
     .ballot-unit .signal{
         font-size: 1.5rem;
+    }
+
+    .election-symbol img{
+        padding-right: 1rem;
     }
 }

@@ -23,6 +23,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "2",
@@ -49,6 +56,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "3",
@@ -75,6 +89,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "4",
@@ -101,6 +122,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "5",
@@ -127,6 +155,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "6",
@@ -153,6 +188,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "7",
@@ -179,6 +221,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "8",
@@ -205,6 +254,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "9",
@@ -231,6 +287,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "10",
@@ -257,6 +320,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "11",
@@ -283,6 +353,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "12",
@@ -309,6 +386,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "13",
@@ -328,6 +412,13 @@
 		party_name: "Indian National Congress",
 		party_id: "2",
 		alliance: "2"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "14",
@@ -354,6 +445,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "15",
@@ -380,6 +478,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "16",
@@ -406,6 +511,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "17",
@@ -432,6 +544,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "18",
@@ -458,6 +577,13 @@
 		party_name: "Janadhipathya Rashtriya Sabha",
 		party_id: "25",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "19",
@@ -484,6 +610,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "20",
@@ -510,6 +643,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "21",
@@ -536,6 +676,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "22",
@@ -562,6 +709,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "23",
@@ -588,6 +742,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "24",
@@ -614,6 +775,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "25",
@@ -640,6 +808,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "26",
@@ -666,6 +841,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "27",
@@ -692,6 +874,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "28",
@@ -718,6 +907,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "29",
@@ -744,6 +940,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "30",
@@ -770,6 +973,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "31",
@@ -796,6 +1006,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "32",
@@ -822,6 +1039,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "33",
@@ -848,6 +1072,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "34",
@@ -874,6 +1105,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "35",
@@ -900,6 +1138,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "36",
@@ -926,6 +1171,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "37",
@@ -952,6 +1204,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "38",
@@ -978,6 +1237,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "39",
@@ -1004,6 +1270,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "40",
@@ -1030,6 +1303,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "41",
@@ -1056,6 +1336,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "42",
@@ -1082,6 +1369,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "43",
@@ -1108,6 +1402,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "44",
@@ -1134,6 +1435,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "45",
@@ -1160,6 +1468,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "46",
@@ -1186,6 +1501,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "47",
@@ -1212,6 +1534,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "48",
@@ -1238,6 +1567,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "49",
@@ -1264,6 +1600,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "50",
@@ -1290,6 +1633,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "51",
@@ -1316,6 +1666,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "52",
@@ -1342,6 +1699,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "53",
@@ -1368,6 +1732,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "54",
@@ -1394,6 +1765,13 @@
 		party_name: "All India Anna Dravida Munnetra Kazhagam",
 		party_id: "26",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "55",
@@ -1420,6 +1798,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "56",
@@ -1446,6 +1831,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "57",
@@ -1472,6 +1864,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "58",
@@ -1498,6 +1897,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "59",
@@ -1524,6 +1930,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "60",
@@ -1550,6 +1963,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "61",
@@ -1576,6 +1996,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "62",
@@ -1602,6 +2029,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "63",
@@ -1627,6 +2061,13 @@
 		party_code: "Ind.",
 		party_name: "Independent",
 		party_id: "31",
+		alliance: "4"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
 		alliance: "4"
 	}]
 }, {
@@ -1654,6 +2095,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "65",
@@ -1680,6 +2128,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "66",
@@ -1706,6 +2161,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "67",
@@ -1732,6 +2194,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "68",
@@ -1758,6 +2227,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "69",
@@ -1784,6 +2260,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "70",
@@ -1810,6 +2293,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "71",
@@ -1836,6 +2326,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "72",
@@ -1862,6 +2359,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "73",
@@ -1888,6 +2392,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "74",
@@ -1914,6 +2425,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "75",
@@ -1940,6 +2458,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "76",
@@ -1966,6 +2491,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "77",
@@ -1992,6 +2524,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "78",
@@ -2018,6 +2557,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "79",
@@ -2044,6 +2590,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "80",
@@ -2070,6 +2623,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "81",
@@ -2096,6 +2656,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "82",
@@ -2122,6 +2689,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "83",
@@ -2148,6 +2722,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "84",
@@ -2174,6 +2755,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "85",
@@ -2200,6 +2788,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "86",
@@ -2226,6 +2821,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "87",
@@ -2252,6 +2854,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "88",
@@ -2278,6 +2887,13 @@
 		party_name: "All India Anna Dravida Munnetra Kazhagam",
 		party_id: "26",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "89",
@@ -2304,6 +2920,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "90",
@@ -2330,6 +2953,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "91",
@@ -2356,6 +2986,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "92",
@@ -2382,6 +3019,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "93",
@@ -2408,6 +3052,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "94",
@@ -2434,6 +3085,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "95",
@@ -2460,6 +3118,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "96",
@@ -2486,6 +3151,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "97",
@@ -2512,6 +3184,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "98",
@@ -2538,6 +3217,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "99",
@@ -2564,6 +3250,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "100",
@@ -2590,6 +3283,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "101",
@@ -2623,6 +3323,13 @@
 		party_name: "Kerala Janapaksham (Secular)",
 		party_id: "23",
 		alliance: "4"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "102",
@@ -2649,6 +3356,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "103",
@@ -2675,6 +3389,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "104",
@@ -2701,6 +3422,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "105",
@@ -2727,6 +3455,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "106",
@@ -2753,6 +3488,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "107",
@@ -2779,6 +3521,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "108",
@@ -2805,6 +3554,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "109",
@@ -2831,6 +3587,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "110",
@@ -2857,6 +3620,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "111",
@@ -2883,6 +3653,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "112",
@@ -2909,6 +3686,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "113",
@@ -2935,6 +3719,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "114",
@@ -2961,6 +3752,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "115",
@@ -2987,6 +3785,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "116",
@@ -3013,6 +3818,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "117",
@@ -3039,6 +3851,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "118",
@@ -3065,6 +3884,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "119",
@@ -3091,6 +3917,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "120",
@@ -3117,6 +3950,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "121",
@@ -3143,6 +3983,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "122",
@@ -3169,6 +4016,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "123",
@@ -3195,6 +4049,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "124",
@@ -3221,6 +4082,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "125",
@@ -3247,6 +4115,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "126",
@@ -3273,6 +4148,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "127",
@@ -3299,6 +4181,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "128",
@@ -3325,6 +4214,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "129",
@@ -3351,6 +4247,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "130",
@@ -3377,6 +4280,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "131",
@@ -3403,6 +4313,13 @@
 		party_name: "Bharath Dharma Jana Sena",
 		party_id: "22",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "132",
@@ -3429,6 +4346,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "133",
@@ -3455,6 +4379,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "134",
@@ -3481,6 +4412,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "135",
@@ -3507,6 +4445,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "136",
@@ -3533,6 +4478,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "137",
@@ -3559,6 +4511,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "138",
@@ -3585,6 +4544,13 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "139",
@@ -3611,6 +4577,13 @@
 		party_name: "Kerala Kamaraj Congress",
 		party_id: "24",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }, {
 	constituency_id: "140",
@@ -3637,5 +4610,12 @@
 		party_name: "Bharatiya Janata Party",
 		party_id: "3",
 		alliance: "3"
+	}, {
+		candidate_name: "Others",
+		candidate_mname: "മറ്റുള്ളവർ",
+		party_code: "Oth.",
+		party_name: "Others",
+		party_id: "30",
+		alliance: "4"
 	}]
 }]

@@ -21,6 +21,14 @@ for party in partylist:
     partymap[party['party_code'].lower()]=party
 
 #print(partymap)
+others={}
+others['candidate_name']="Others"
+others['candidate_mname']="മറ്റുള്ളവർ"
+others['party_code']="Oth."
+others['party_name']="Others"
+others['party_id']="30"
+others['alliance']="4"
+
 mindex=0
 for items in data:
     mitems=mdata[mindex]
@@ -55,6 +63,7 @@ for items in data:
             #print("")
             candidates.append(candidate)
         #print(candidates)
+        candidates.append(others)
         constituency['candidates']=candidates
         #print(item[0],len(candidates))
         newlist.append(constituency)
@@ -67,5 +76,5 @@ with open('JSON/candidates.json', 'w', encoding='utf8') as json_file:
      print("Data extracted to JSON/candidates.json")
 
 # print(newlist) {constituency : "Kannur",district : "Kannur"},
-for items in newlist:
-    print('{constituency : "%s", constituency_mal :"%s"},'%(items["constituency_name"],items["constituency_mname"]))
+# for items in newlist:
+#     print('{constituency : "%s", constituency_mal :"%s"},'%(items["constituency_name"],items["constituency_mname"]))

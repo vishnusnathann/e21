@@ -166,7 +166,8 @@ const VotingMachine = (props) => {
                                             <span className="separator">
                                             </span>
                                             <span>
-                                            {` ${item.candidate_name}`}
+                                            {` ${item.candidate_name}`}<br/>
+                                            {` ${item.candidate_mname}`}
                                             </span>
                                         </div>
                                         <div className="election-symbol">
@@ -196,7 +197,7 @@ const VotingMachine = (props) => {
                                     <span className="separator">
                                     </span>
                                     <span>
-                                        NOTA
+                                        NOTA<br/>നോട്ട
                                     </span>
                                 </div>
                                 <div className="election-symbol">

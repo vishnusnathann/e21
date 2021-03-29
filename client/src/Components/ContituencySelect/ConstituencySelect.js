@@ -44,7 +44,7 @@ const ConstituencySelect = (props) => {
             if(selectDistrict == null){
                 setConstituencyOptions(constituencyOptions => [...constituencyOptions,{
                     value:item.constituency,
-                    label:item.constituency
+                    label:item.constituency+" ("+item.constituency_mal+")"
                 }])
                 
             }
