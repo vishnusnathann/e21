@@ -2938,7 +2938,7 @@ export const candidateData =[{
 	}, {
 		candidate_name: "Anoop Jacob",
 		candidate_mname: "അനൂപ് ജേക്കബ്",
-		party_code: "KC",
+		party_code: "KC(Ja)",
 		party_name: "Kerala Congress",
 		party_id: "9",
 		alliance: "2"
