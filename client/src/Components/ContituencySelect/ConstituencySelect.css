@@ -152,7 +152,7 @@
         margin-right: .5rem;
     }
 
-    @media screen and (max-width:320px){
+    @media screen and (max-width:350px){
         .select-wrapper{
             font-size: .7rem;
         }

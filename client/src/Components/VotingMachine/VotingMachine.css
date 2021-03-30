@@ -12,7 +12,7 @@
     /* justify-content: center; */
     overflow-y: auto;
     align-items: center;
-    width: 70%;
+    width: 85%;
     width: calc(min(500px,90%));
     margin: 0 auto;
     margin-top: 2rem;
@@ -69,24 +69,29 @@
 
 
 .candiate-name{
-    padding-left: 1rem;
+    padding-left: 1.2rem;
     width: 100%;
     font-size: .8rem;
     box-sizing: border-box;
+    /* font-weight: bold; */
 }
 
 .candiate-name .candidate-order-number{
-    font-size: .9rem;
+    font-size: .9rem;   
     padding: 0 .5rem 0 0;
     width: 10px;
-    
+    font-weight: normal;
     
 }
 
-.separator{
-    margin-right: .7rem;
-    /* border-right: 2px solid rgb(88, 88, 88); */
+.candiate-name small{
+    margin-left: 1.5rem;
+    font-size: .7rem;
+    font-weight: 600;
+    text-align: center;
 }
+
+
 
 .election-symbol{
     width: 30%;
@@ -147,8 +152,30 @@
 
 @media screen and (min-width:768px){
 
+
+    .voting-machine-container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        overflow-y: auto;
+        align-items: center;
+        width: 70%;
+        width: calc(min(500px,90%));
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        /* border: 1px solid gray; */
+        box-shadow: 1px 2px 26px -3px rgba(79,79,79,0.64);
+        border-radius: .5rem;    
+        background-color: #f4f5f0;
+        padding-bottom: 1rem;
+        overflow-y: auto;
+        
+    }
+
     .candiate-name{
         font-size: 1rem;
+        font-weight: unset;
     }
 
     .ballot-button{
@@ -162,4 +189,24 @@
     .election-symbol img{
         padding-right: 1rem;
     }
+
+
+    .candiate-name small{
+        margin-left: 1.5rem;
+        /* font-weight: 600; */
+    }
+}
+
+@media screen and (max-width:400px){
+    .candiate-name{
+        font-size: .7rem;
+    }
+
+    .candiate-name small{
+        margin-left: 1.4rem;
+        font-size: .5rem;
+        font-weight: 600;
+    }
+    
+
 }

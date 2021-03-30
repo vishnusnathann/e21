@@ -46,3 +46,9 @@
     text-decoration: none;
     color: #fff;
 }
+
+@media screen and (max-width:350px){
+    .logo-container h1{
+        font-size: .9rem;
+    }
+}
