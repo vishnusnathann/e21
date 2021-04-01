@@ -47,8 +47,23 @@
     color: #fff;
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:410px){
     .logo-container h1{
         font-size: .9rem;
+    }
+
+    .branding{
+        margin-right: 0.5rem;
+        font-size: .7rem;
+        /* color: rgb(108, 108, 108); */
+    }
+
+    .logo-container h1{
+        font-size: 1rem;
+        line-height: .9;
+    }
+    .logo-container h1 small{
+        font-size: .8rem;
+        color: rgb(250, 249, 249);
     }
 }

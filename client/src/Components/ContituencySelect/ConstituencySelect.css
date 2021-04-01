@@ -229,20 +229,23 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 30px;
-    color: #000;
+    color: #2c3e50;
+    padding-right: 10px;
+    padding-left:10px;
+    padding-top: 5px;
     /* margin-left: 66px;
     margin-top: 40px; */
     }
     .timeline label {
     font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 16px;
     line-height: 22px;
     /* identical to box height */
     /* margin-left: 66px;
     margin-top: 10px; */
-    color: #000;
+    color: #34495e;
     }
     .timeline .box {
     width: 100%;
