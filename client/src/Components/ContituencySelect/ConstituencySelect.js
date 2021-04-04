@@ -5,6 +5,9 @@ import './ConstituencySelect.css';
 import Select, { components } from 'react-select';
 import { Link } from 'react-router-dom';
 import { FaVoteYea } from "react-icons/fa";
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import { HiSpeakerphone } from "react-icons/hi";
+import '../FinalAnnotation/FinalAnnotation.css';
 // import bg from '/keralabg1.jpg';
 
 
@@ -142,9 +145,11 @@ const ConstituencySelect = (props) => {
 
             <div className="constituency-select-container" >
                     <div className="select-action-container">
-                        <h1>Select your Constituency</h1>
+                        <i className="icon"><AiOutlineCheckCircle/></i>
+                        <h1>Voting has Ended </h1>
+
                         <div className="select-wrapper">
-                            <Select
+                            {/* <Select
                                 isClearable
                                 components={animatedComponents}
                                 value={selectedConstituency}
@@ -153,7 +158,7 @@ const ConstituencySelect = (props) => {
                                 className='select'
                                 placeholder="മണ്ഡലം തിരഞ്ഞെടുക്കുക"
                                 components={{ IndicatorsContainer }}
-                            />
+                            /> */}
                             {/* <Select
                                 isClearable
                                 components={animatedComponents}
@@ -164,7 +169,9 @@ const ConstituencySelect = (props) => {
                                 placeholder="All"
                             /> */}
                         </div>
-                        <div>
+                        <small><HiSpeakerphone/> Results will be announced on <b>30th April 2021</b></small>
+
+                        {/* <div>
                             {
                                 selectedConstituency ?
                                 <Link to="/vote" style={{textDecoration:"none"}}>
@@ -177,7 +184,7 @@ const ConstituencySelect = (props) => {
                                         <FaVoteYea className="icon"/> Vote now
                                     </button>
                             }
-                        </div>
+                        </div> */}
                     </div>
                 </div>
         </div>
