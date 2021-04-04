@@ -41,13 +41,13 @@ return (
 						}
 					/>
 					
-					<Route path="/vote"  exact render={props => 
+					{/* <Route path="/vote"  exact render={props => 
 						<VotingMachine {...props} selectedConstituency={selectedConstituency}/>}
 					/>
 
 					<Route path="/vote_casted"  exact render={props => 
 						<FinalAnnotation {...props} />}
-					/>
+					/> */}
 					<Redirect to="/"/>
 				</Switch>
 				<WebShare/>
