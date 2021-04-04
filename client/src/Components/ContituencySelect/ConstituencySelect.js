@@ -66,8 +66,8 @@ const ConstituencySelect = (props) => {
 
     useEffect(() => {
 
-        if(localStorage.getItem("e21_vote_cast"))
-            props.history.push("/vote_casted");
+            // if(localStorage.getItem("e21_vote_cast"))
+            //     props.history.push("/vote_casted");
 
         DISTRICT.sort().map(item=>{
             districtOptions.push({
