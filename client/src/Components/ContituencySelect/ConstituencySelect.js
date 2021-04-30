@@ -146,7 +146,12 @@ const ConstituencySelect = (props) => {
             <div className="constituency-select-container" >
                     <div className="select-action-container">
                         <i className="icon"><AiOutlineCheckCircle/></i>
-                        <h1>Voting has Ended </h1>
+                        <h1>Voting has Ended!</h1>
+                        <a href="https://rsoclabs.com/virtualelectionresults" style={{textDecoration:'none'}}>
+                            <button  className="result-btn">
+                                See Results
+                            </button>
+                        </a>
 
                         <div className="select-wrapper">
                             {/* <Select
@@ -169,7 +174,7 @@ const ConstituencySelect = (props) => {
                                 placeholder="All"
                             /> */}
                         </div>
-                        <small><HiSpeakerphone/> Results will be announced on <b>30th April 2021</b></small>
+                        {/* <small><HiSpeakerphone/> Results will be announced on <b>30th April 2021</b></small> */}
 
                         {/* <div>
                             {

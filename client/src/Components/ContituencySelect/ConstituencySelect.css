@@ -161,6 +161,15 @@
         }
         
     }
+    .result-btn{
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: .5rem;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: rgb(22, 160, 214);
+    }
 
     .select-action-container small{
         color: rgb(240, 22, 22);
